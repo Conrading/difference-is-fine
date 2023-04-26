@@ -10,10 +10,11 @@
   position: relative;
 }
 .head-title {
-  font-size: 29px;
+  font-size: 31px;
   font-family: cursive;
   color: black;
-  margin-top: 1%;
+  rotate: -7deg;
+  border-bottom: 1px solid black;
   /* position horizontal*/
   flex: 0 1 auto;
   position: absolute;
@@ -43,76 +44,57 @@
 }
 
 
-.center-by-margin {
+
+/* posters area begin*/
+.poster-area {
+  background-color: black;
+}
+.posters-frame {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 17px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1%;
   margin: 0 auto;
   width: 71%;
 }
-
-.card-project {
-  border: 1px solid rgba(77, 17, 17);
-  border-radius: 3px;
+.posters-each-work {
+  cursor: pointer;
+  border-bottom: 1px solid rgba(77, 17, 17);
+  border-right: 1px solid rgba(77, 17, 17);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: black;
   transition: 0.3s;
-  max-height: 301px;
-  width: 301px;
-  margin-left: 3px;
-  margin-top: 3px;
+  width: 100%;
+  height: 100%;
 }
-.card-project:hover {
+.posters-each-work:hover {
   background-color: #EEEEEE;
-  border: 2px solid rgb(77, 17, 17);
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
 }
-.miesiąc {
-  margin: 3%;
-  padding-left: 7px;
+.poster-image-parameter {
+  padding-top: 3%;
+}
+img {
+  max-width: 59%;
+  max-height: 59%;
+}
+img:hover {
+  max-width: 79%;
+  max-height: 79%;
+  transition: 0.3s;
 }
 .limit-width-sieben {
   margin-left: 3%;
   width: 91%;
 }
-.tydzień {
+.poster-introduction-each-frame {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   margin: 3%;
 }
-.tydzień-sunday {
-  margin-left: 3%;
-  font-weight: 500;
-  color: brown;
-}
-.tydzień-saturday {
-  color: darkmagenta;
-  text-align: center;
-}
-.dni-container {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  margin: 3%;
-  padding: 2px;
-}
-.dni-pto-text {
-  cursor: pointer;
-  text-align: center;
-  font-weight: 400;
-  color: firebrick;
-  background-color: bisque;
-}
-.dni-pto-text:hover {
-  transition: 0.3s;
-  font-weight: 800;
-  color: brown;
-}
-.dni-bank-text {
-  cursor: pointer;
-  text-align: center;
-  font-weight: 600;
-  color: darkcyan;
-  background-color: aquamarine;
-}
+
+/* posters area end */
+
 
 .tooltip {
   display:inline-block;
@@ -244,22 +226,6 @@
   box-shadow: 0 7px 7px 0 solid rgb(0, 0, 0);
 }
 /*useless end*/
-
-.wynik-frame {
-  padding: 1%;
-  display: flex;
-}
-.wynik-swój {
-  margin-left: auto;
-  text-align: right;
-}
-.wynik-numer {
-  cursor: pointer;
-  margin-right: auto;
-  text-align: left;
-  margin-left: 7px;
-  font-weight: 500;
-}
 
 
 
