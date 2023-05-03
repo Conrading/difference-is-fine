@@ -22,6 +22,7 @@ Builds the app to the `docs` folder.\
 [GitHub Pages](https://conrading.github.io/wroclaw-project/) 
 
 ```
-**this project is created in 2023**
+$ npm run build
 ```
+**this project is created in 2023**
 
