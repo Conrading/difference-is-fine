@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b45d3d5.css",
-    "main.js": "/static/js/main.f57c3cde.js",
-    "static/js/787.0c3f432a.chunk.js": "/static/js/787.0c3f432a.chunk.js",
-    "index.html": "/index.html",
-    "main.1b45d3d5.css.map": "/static/css/main.1b45d3d5.css.map",
-    "main.f57c3cde.js.map": "/static/js/main.f57c3cde.js.map",
-    "787.0c3f432a.chunk.js.map": "/static/js/787.0c3f432a.chunk.js.map"
+    "main.css": "/wroclaw-project/static/css/main.1b45d3d5.css",
+    "main.js": "/wroclaw-project/static/js/main.bb646c3f.js",
+    "static/js/787.29bc145b.chunk.js": "/wroclaw-project/static/js/787.29bc145b.chunk.js",
+    "index.html": "/wroclaw-project/index.html",
+    "main.1b45d3d5.css.map": "/wroclaw-project/static/css/main.1b45d3d5.css.map",
+    "main.bb646c3f.js.map": "/wroclaw-project/static/js/main.bb646c3f.js.map",
+    "787.29bc145b.chunk.js.map": "/wroclaw-project/static/js/787.29bc145b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b45d3d5.css",
-    "static/js/main.f57c3cde.js"
+    "static/js/main.bb646c3f.js"
   ]
 }
