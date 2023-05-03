@@ -1,3 +1,0 @@
-node version 14.11.0
-
-token 4/26/2023 "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"
