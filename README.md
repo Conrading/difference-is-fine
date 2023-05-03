@@ -17,12 +17,11 @@ This project is for collecting fund for translation of story "Difference is Fine
 
 ##### GitHub Pages
 
-```
+
 Builds the app to the `docs` folder.\
-```
 [GitHub Pages](https://conrading.github.io/wroclaw-project/) 
 
-
+```
 **this project is created in 2023**
-
+```
 
