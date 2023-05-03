@@ -21,6 +21,8 @@ This project is for collecting fund for translation of story "Difference is Fine
 Builds the app to the `docs` folder.\
 [GitHub Pages](https://conrading.github.io/wroclaw-project/) 
 
+* more information about github-page install [link](https://www.pluralsight.com/guides/deploying-github-pages-with-create-react-app)
+
 ```
 $ npm run build
 ```
