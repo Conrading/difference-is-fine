@@ -18,7 +18,7 @@ class Główna extends Component {
       <body>
         <div className='head-frame'>
           <div className='head-title'>Conrading</div>
-          <a className='head-icon' href="https://www.instagram.com/conrad.wroclaw/" target="_blank" rel="noopener noreferrer">
+          <a className='head-icon' href="https://www.instagram.com/_conrading_/" target="_blank" rel="noopener noreferrer">
             <img className='head-icon-img' src="instagram_icon.png"/>
           </a>
         </div>
@@ -62,10 +62,14 @@ class Główna extends Component {
             </div>
             <div className='opis'>
               I am a writer from Taiwan. 
-              I have finished a story that cannot not be done by artificial intelligence at this moment, 
-              means AI couldn't use the current source to reconstruct my story. 
-              In other words, this story can show the difference between humans and current AI,
-              and perhaps worth further think of the value of humans and AI.
+              I have finished a story that cannot not be done by current artificial intelligence, 
+              means current AI couldn't reconstruct my story by any means,
+              especially if AI literally has consciousness. 
+              In other words, this story shows the difference between humans and current AI,
+              and thus perhaps further worth to think of the value of humans and AI.
+            </div>
+            <div className='opis'>
+              <b>Artificial intelligence cannot write this story.</b>
             </div>
             <div className='opis'>
               I want to show to you, but I need to translate the story from Mandarin to English/Polish, 
