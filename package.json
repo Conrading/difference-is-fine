@@ -1,5 +1,6 @@
 {
-  "name": "test",
+  "homepage": "https://conrading.github.io/wroclaw-project",
+  "name": "introduction",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
