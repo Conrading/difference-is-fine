@@ -2,7 +2,7 @@
 
 This project is for collecting fund for translation of story "Difference is Fine" [IG](https://www.instagram.com/conrad.wroclaw/).
 
-## website
+> website
 
 current CSS does not consider phone scale.
 
@@ -17,7 +17,7 @@ this project uses CSS to decorate.
 ### `GitHub Pages`
 
 Builds the app to the `docs` folder.\
-[GitHub Pages](https://facebook.github.io/create-react-app/docs/deployment) 
+[GitHub Pages](https://conrading.github.io/wroclaw-project/) 
 
 
 **this project is created in 2023**
