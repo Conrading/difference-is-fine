@@ -4,7 +4,7 @@ This project is for collecting fund for translation of story "Difference is Fine
 
 ### website feature
 
-* current CSS does not include phone scale.
+* current CSS includes phone scale.
 * moving text when page loading 
 
 ##### Node version is 14.11.0
