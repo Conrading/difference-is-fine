@@ -224,6 +224,10 @@ and (max-device-width: 900px) {
         color: black
       }
   }
+  .opis-poster-example {
+    max-width: 71%;
+    max-height: 71%;
+  }
 }
 @media screen 
 and (min-device-width: 911px) {
@@ -254,15 +258,15 @@ and (min-device-width: 911px) {
         color: blue;
       }
   }
-}
-.opis-poster-example {
-  max-width: 17%;
-  max-height: 17%;
-}
-.opis-poster-example:hover {
-  max-width: 23%;
-  max-height: 23%;
-  transition: 0.3s;
+  .opis-poster-example {
+    max-width: 17%;
+    max-height: 17%;
+  }
+  .opis-poster-example:hover {
+    max-width: 23%;
+    max-height: 23%;
+    transition: 0.3s;
+  }
 }
 
 
