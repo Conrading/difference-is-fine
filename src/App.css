@@ -126,9 +126,6 @@ and (max-device-width: 900px) {
     width: 71%;
   }
   .project-eachcard {
-    border: 1px solid rgba(77, 17, 17);
-    border-radius: 3px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 91%;
     margin: 0 auto;
@@ -205,8 +202,7 @@ and (min-device-width: 911px) {
 }
 .opis {
   margin: 1%;
-  cursor: pointer;
-  color: blue;
+  color: black;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 17px;
   animation-duration: 1s;
