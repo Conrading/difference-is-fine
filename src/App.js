@@ -25,7 +25,7 @@ class Główna extends Component {
           <div className='main-claim'><span>Purchase </span><span>the Posters</span></div>
         </div>
         <div className='project-area'>
-          <div class="project-eachcard">
+          <div className="project-eachcard">
             <div onClick={() => {this.setState({
                     background: true,
                     story: false, 
@@ -81,11 +81,18 @@ class Główna extends Component {
             </div>
             {this.state.opisIntroduction === true &&
             <div className='opis-introduction-frame'>
-              <div className='opis-introduction-photo'><img src='IMG_1128.JPG' alt='zdjędzie'/></div>
-              <div className='opis-introduction-introduction'>
-                my name is Conrading, from Taiwan, currently is living in Wrocłąw in Poland,
-                I am passionate about writing story and <a href='https://soundcloud.com/sichangyozu'>music</a>. 
-                I was once semiconductor engineer, then switched to patent field, study law, also do some programming. 
+              <div className='opis-introduction-photo'><img src='https://pbs.twimg.com/media/FvjIH-eWYAIcGI4?format=jpg&name=small' alt='zdjędzie'/></div>
+              <div>
+                <div className='opis-introduction-introduction'>
+                  my name is Conrading, from Taiwan, currently is living in Wrocław in Poland.
+                </div>
+                <div className='opis-introduction-introduction'>
+                  I am passionate about writing story and <a href='https://soundcloud.com/sichangyozu'>music</a>. 
+                  I was once semiconductor engineer, then switched to patent field, study law, also do some programming. 
+                </div>
+                <div className='opis-introduction-introduction'>
+                  I was once semiconductor engineer, then switched to patent field, study law, also do some programming. 
+                </div>
               </div>
             </div>}
           </div>}
@@ -117,7 +124,7 @@ class Główna extends Component {
             <div className='opis'>
               under construction ...
             </div>
-            <div className='center-object'><img className='opis-poster-example' alt='poster 1' src='poster_1.png'/></div>  
+            <div className='center-object'><img className='opis-poster-example' alt='poster 1' src='Poster_1.png'/></div>  
           </div>}
         </div>
         <br />

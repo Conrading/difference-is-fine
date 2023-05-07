@@ -245,8 +245,11 @@ and (max-device-width: 900px) {
   }
   .opis-introduction-photo {
     margin: 0 auto;
+    height: 11%;
+    width: 11%
   }
   .opis-introduction-introduction {
+    margin: 1%;
     font-family:'Courier New', Courier, monospace;
   }
   .opis-poster-example {
