@@ -128,11 +128,14 @@ and (max-device-width: 900px) {
     width: 71%;
   }
   .project-eachcard {
-    background-color: whitesmoke;
     transition: 0.3s;
     width: 91%;
     margin: 0 auto;
-    padding: 1%;
+    padding: 3%;
+  }
+  .limit-width-sieben {
+    margin-left: 3%;
+    width: 51%;
   }
   .project-title {
     margin: 0 auto;
@@ -207,7 +210,7 @@ and (min-device-width: 911px) {
 @media screen 
 and (max-device-width: 900px) {
   .opis {
-    margin: 1%;
+    margin: 3%;
     color: black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 11px;
@@ -230,10 +233,10 @@ and (max-device-width: 900px) {
   }
   .opis-about {
     cursor: pointer;
-    margin: 2%;
+    margin: 5%;
     transition: 0.3s;
     font-family:'Courier New', Courier, monospace;
-    font-size: 17px;
+    font-size: 7px;
   }
   .opis-about:hover {
     cursor: pointer;
@@ -246,11 +249,12 @@ and (max-device-width: 900px) {
   .opis-introduction-photo {
     margin: 0 auto;
     height: 100%;
-    width: 11%
+    width: 51%
   }
   .opis-introduction-line {
     margin: 1%;
     font-family:'Courier New', Courier, monospace;
+    font-size: 11px;
   }
   .opis-poster-example {
     max-width: 71%;
