@@ -81,16 +81,16 @@ class Główna extends Component {
             </div>
             {this.state.opisIntroduction === true &&
             <div className='opis-introduction-frame'>
-              <div className='opis-introduction-photo'><img src='https://pbs.twimg.com/media/FvjIH-eWYAIcGI4?format=jpg&name=small' alt='zdjędzie'/></div>
+              <div><img className='opis-introduction-photo' src='https://pbs.twimg.com/media/FvjIH-eWYAIcGI4?format=jpg&name=small' alt='zdjędzie'/></div>
               <div>
-                <div className='opis-introduction-introduction'>
-                  my name is Conrading, from Taiwan, currently is living in Wrocław in Poland.
+                <div className='opis-introduction-line'>
+                  my name is Conrading, I am from Taiwan, currently living in Wrocław in Poland.
                 </div>
-                <div className='opis-introduction-introduction'>
+                <div className='opis-introduction-line'>
                   I am passionate about writing story and <a href='https://soundcloud.com/sichangyozu'>music</a>. 
                   I was once semiconductor engineer, then switched to patent field, study law, also do some programming. 
                 </div>
-                <div className='opis-introduction-introduction'>
+                <div className='opis-introduction-line'>
                   I was once semiconductor engineer, then switched to patent field, study law, also do some programming. 
                 </div>
               </div>

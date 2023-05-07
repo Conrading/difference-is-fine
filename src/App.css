@@ -240,15 +240,13 @@ and (max-device-width: 900px) {
   }
   .opis-introduction-frame {
     margin: 2%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
   }
   .opis-introduction-photo {
     margin: 0 auto;
-    height: 11%;
+    height: 100%;
     width: 11%
   }
-  .opis-introduction-introduction {
+  .opis-introduction-line {
     margin: 1%;
     font-family:'Courier New', Courier, monospace;
   }
@@ -304,9 +302,12 @@ and (min-device-width: 911px) {
     grid-template-columns: repeat(2, 1fr);
   }
   .opis-introduction-photo {
-    margin: 0 auto;
+    margin-left: 31%;
+    height: 100%;
+    width: 51%
   }
-  .opis-introduction-introduction {
+  .opis-introduction-line {
+    margin: 3%;
     font-family:'Courier New', Courier, monospace;
   }
   .opis-poster-example {
