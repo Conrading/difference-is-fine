@@ -128,6 +128,7 @@ and (max-device-width: 900px) {
     width: 71%;
   }
   .project-eachcard {
+    background-color: whitesmoke;
     transition: 0.3s;
     width: 91%;
     margin: 0 auto;
@@ -160,6 +161,7 @@ and (min-device-width: 911px) {
     border: 1px solid rgba(77, 17, 17);
     border-radius: 3px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: whitesmoke;
     transition: 0.3s;
     width: 71%;
     margin: 0 auto;
@@ -167,7 +169,7 @@ and (min-device-width: 911px) {
   }
   .project-eachcard:hover {
     transition: 0.3s;
-    background-color: #EEEEEE;
+    background-color: blanchedalmond;
     border: 2px solid rgb(77, 17, 17);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
