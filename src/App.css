@@ -53,7 +53,7 @@
 }
 
 .main-claim-background {
-  background-color:beige;
+  background-color:black;
 }
 @media screen 
 and (max-device-width: 900px) {
@@ -62,7 +62,8 @@ and (max-device-width: 900px) {
     text-align: center;
     padding: 3%;
     font-size: 31px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: beige;
   }
 }
 @media screen 
@@ -72,17 +73,18 @@ and (min-device-width: 911px) {
     text-align: center;
     padding: 3%;
     font-size: 31px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: beige;
   }
   .main-claim:hover span{
-    color: rgb(126, 37, 37);
+    color: beige;
     transition: .3s linear;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
     padding: 1%;
   }
-  .main-claim:hover span:nth-child(3)::after {
-    content: " ???";
+  .main-claim:hover span:nth-child(2)::after {
+    content: " for the Story";
   }
   .main-claim span:nth-child(2) {
     animation-duration: 3s;
@@ -91,27 +93,27 @@ and (min-device-width: 911px) {
   @keyframes ai-moving {
     0% {
       transition: .3s;
-      background-color: antiquewhite;
+      color: darkblue;
     }
     20% {
       transition: .3s;
       padding: 2%;
-      color: gold;
+      color:darkgoldenrod;
     }
     50% {
       transition: .3s;
       padding: 3%;
-      color: burlywood;
       font-size: large;
+      color: burlywood;
     }
     70% {
       transition: .3s;
       padding: 2%;
-      color:darkgoldenrod
+      color: gold;
     }
     100% {
       transition: .3s;
-      color: darkblue;
+      background-color: antiquewhite;
     }
   }
 }
@@ -224,6 +226,29 @@ and (max-device-width: 900px) {
         color: black
       }
   }
+  .opis-about {
+    cursor: pointer;
+    margin: 2%;
+    transition: 0.3s;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 17px;
+  }
+  .opis-about:hover {
+    cursor: pointer;
+    font-weight: 700;
+    color: darkmagenta;
+  }
+  .opis-introduction-frame {
+    margin: 2%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .opis-introduction-photo {
+    margin: 0 auto;
+  }
+  .opis-introduction-introduction {
+    font-family:'Courier New', Courier, monospace;
+  }
   .opis-poster-example {
     max-width: 71%;
     max-height: 71%;
@@ -257,6 +282,29 @@ and (min-device-width: 911px) {
         transition: 0.3s;
         color: blue;
       }
+  }
+  .opis-about {
+    cursor: pointer;
+    margin: 2%;
+    transition: 0.3s;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 17px;
+  }
+  .opis-about:hover {
+    cursor: pointer;
+    font-weight: 700;
+    color: darkmagenta;
+  }
+  .opis-introduction-frame {
+    margin: 2%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .opis-introduction-photo {
+    margin: 0 auto;
+  }
+  .opis-introduction-introduction {
+    font-family:'Courier New', Courier, monospace;
   }
   .opis-poster-example {
     max-width: 17%;

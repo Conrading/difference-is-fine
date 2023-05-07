@@ -9,8 +9,7 @@ class Główna extends Component {
       background: false,
       story: false, 
       poster: false,
-
-      opis: null
+      opisIntroduction: false
     }
   }
   render () {
@@ -19,11 +18,11 @@ class Główna extends Component {
         <div className='head-frame'>
           <div className='head-title'>Conrading</div>
           <a className='head-icon' href="https://www.instagram.com/_conrading_/" target="_blank" rel="noopener noreferrer">
-            <img className='head-icon-img' src="instagram_icon.png"/>
+            <img className='head-icon-img' alt="instagram" src="https://cdn3.iconfinder.com/data/icons/social-media-2208/64/Instagram-512.png"/>
           </a>
         </div>
         <div className='main-claim-background'>
-          <div className='main-claim'><span>AI </span><span>will be</span><span> humans</span></div>
+          <div className='main-claim'><span>Purchase </span><span>the Posters</span></div>
         </div>
         <div className='project-area'>
           <div class="project-eachcard">
@@ -33,13 +32,14 @@ class Główna extends Component {
                     poster: false,
                   })}} className='project-title'>Background</div>
             <div className='limit-width-sieben'><hr /></div>
-            <div className='project-brief'>about the writer</div>
+            <div className='project-brief'>Motivation</div>
           </div>
           <div class="project-eachcard">
             <div onClick={() => {this.setState({
                     background: false,
                     story: true, 
                     poster: false,
+                    opisIntroduction: false
                   })}} className='project-title'>Story</div>
             <div className='limit-width-sieben'><hr /></div>
             <div className='project-brief'>Brief the story</div>
@@ -49,6 +49,7 @@ class Główna extends Component {
                     background: false,
                     story: false, 
                     poster: true,
+                    opisIntroduction: false
                   })}} className='project-title'>Posters</div>
             <div className='limit-width-sieben'><hr /></div>
             <div className='project-brief'>Purchasing posters about the story</div>
@@ -58,10 +59,6 @@ class Główna extends Component {
           {this.state.background === true && 
           <div>
             <div className='opis'>
-              I am selling posters for collecting fund for translation of my story, 'Difference is Fine'.
-            </div>
-            <div className='opis'>
-              I am a writer from Taiwan. 
               I have finished a story that cannot not be done by current artificial intelligence, 
               means current AI couldn't reconstruct my story by any means,
               especially if AI literally has consciousness. 
@@ -69,13 +66,28 @@ class Główna extends Component {
               and thus perhaps further worth to think of the value of humans and AI.
             </div>
             <div className='opis'>
+              Therefore I am selling posters for collecting fund for translation of my story, <b>'Difference is Fine'</b>.
+            </div>
+            <div className='opis'>
               <b>Artificial intelligence cannot write this story.</b>
             </div>
             <div className='opis'>
               I want to show to you, but I need to translate the story from Mandarin to English/Polish, 
-              thus I am selling posters to support the translation.
-              Please refer to Posters, I made several with background from somewhere in Wrocław and the quote from different characters.
+              thus <b>I am selling posters to support the translation</b>.
             </div>
+            <div className='opis-about' onClick={() => {this.setState({opisIntroduction: !this.state.opisIntroduction})}}>
+              {this.state.opisIntroduction === false && <div>-about the Writer-</div>}
+              {this.state.opisIntroduction === true && <div>-close-</div>}
+            </div>
+            {this.state.opisIntroduction === true &&
+            <div className='opis-introduction-frame'>
+              <div className='opis-introduction-photo'><img src='IMG_1128.JPG' alt='zdjędzie'/></div>
+              <div className='opis-introduction-introduction'>
+                my name is Conrading, from Taiwan, currently is living in Wrocłąw in Poland,
+                I am passionate about writing story and <a href='https://soundcloud.com/sichangyozu'>music</a>. 
+                I was once semiconductor engineer, then switched to patent field, study law, also do some programming. 
+              </div>
+            </div>}
           </div>}
           {this.state.story === true && 
           <div>
@@ -105,7 +117,7 @@ class Główna extends Component {
             <div className='opis'>
               under construction ...
             </div>
-            <div className='center-object'><img className='opis-poster-example' src='poster_3.jpg'/></div>  
+            <div className='center-object'><img className='opis-poster-example' alt='poster 1' src='poster_1.png'/></div>  
           </div>}
         </div>
         <br />
