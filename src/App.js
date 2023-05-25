@@ -63,7 +63,7 @@ class Główna extends Component {
               means current AI couldn't reconstruct my story by any means,
               especially if AI literally has consciousness. 
               In other words, this story shows the difference between humans and current AI,
-              and thus perhaps further worth to think of the value of humans and AI.
+              which perhaps further worth to think of the value of humans and AI.
             </div>
             <div className='opis'>
               Therefore I am selling posters for collecting fund for translation of my story, <b>'Difference is Fine'</b>.
@@ -88,7 +88,6 @@ class Główna extends Component {
                 </div>
                 <div className='opis-introduction-line'>
                   I am passionate about writing story and <a href='https://soundcloud.com/sichangyozu'>music</a>. 
-                  I was once semiconductor engineer, then switched to patent field, study law, also do some programming. 
                 </div>
                 <div className='opis-introduction-line'>
                   I was once semiconductor engineer, then switched to patent field, study law, also do some programming. 
