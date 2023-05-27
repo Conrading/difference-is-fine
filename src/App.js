@@ -9,10 +9,35 @@ class Główna extends Component {
       background: false,
       story: false, 
       poster: false,
-      opisIntroduction: false
+      opisIntroduction: false,
+
+      posters: [
+        {
+          src: "https://pbs.twimg.com/media/FxI5jgLX0AMa4-l?format=jpg&name=small", 
+          size: '30x40 cm / 12x16"', type: "Canvas", name: "nyska-190633"
+        },
+        {
+          src: "https://pbs.twimg.com/media/FxKw4YbWIAA2j1i?format=jpg&name=small", 
+          size: '30x40 cm / 12x16"', type: "Canvas", name: "świdnicka-311293"
+        },
+        {
+          src: "https://pbs.twimg.com/media/FxKxsNEXgAALboN?format=jpg&name=small", 
+          size: '30x40 cm / 12x16"', type: "Canvas", name: "prudnicka-513239"
+        }
+      ]
     }
   }
   render () {
+    let plakat = this.state.posters.map( i => {
+      return(
+        <div>
+          <img className='opis-poster-example' alt='poster 1' src={i.src}/>
+          <div className='opis-poster-about'>{i.size}</div>
+          <div className='opis-poster-about'>{i.type}</div>
+          <div className='opis-poster-about'>{i.name}</div>
+        </div>
+      )
+    } )
     return (
       <body>
         <div className='head-frame'>
@@ -22,7 +47,7 @@ class Główna extends Component {
           </a>
         </div>
         <div className='main-claim-background'>
-          <div className='main-claim'><span>Purchase </span><span>the Posters</span></div>
+          <div className='main-claim'><span>Purchase </span><span>the Canvas</span></div>
         </div>
         <div className='project-area'>
           <div className="project-eachcard">
@@ -50,9 +75,9 @@ class Główna extends Component {
                     story: false, 
                     poster: true,
                     opisIntroduction: false
-                  })}} className='project-title'>Posters</div>
+                  })}} className='project-title'>Canvas</div>
             <div className='limit-width-sieben'><hr /></div>
-            <div className='project-brief'>Purchasing posters about the story</div>
+            <div className='project-brief'>Purchasing canvas about the story</div>
           </div>
         </div>
         <div className='opis-frame'>
@@ -121,9 +146,11 @@ class Główna extends Component {
           {this.state.poster === true && 
           <div>
             <div className='opis'>
-              under construction ...
+              constructing... or write to me, sichangyozu@gmail.com
             </div>
-            <div className='center-object'><img className='opis-poster-example' alt='poster 1' src='Poster_1.png'/></div>  
+            <div className='center-object'>
+              <div className='opis-poster-frame'>{plakat}</div>
+            </div>  
           </div>}
         </div>
         <br />

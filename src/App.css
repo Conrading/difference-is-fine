@@ -257,14 +257,22 @@ and (max-device-width: 900px) {
     font-size: 11px;
   }
   .opis-poster-example {
-    max-width: 71%;
-    max-height: 71%;
+    max-width: 91%;
+    max-height: 91%;
+  }
+  .opis-poster-example:hover {
+    border: 1px solid black;
+    transition: 0.3s;
+  }
+  .opis-poster-about {
+    margin-top: 1%;
+    font-family:'Courier New', Courier, monospace;
   }
 }
 @media screen 
 and (min-device-width: 911px) {
   .opis {
-    margin: 1%;
+    margin: 3%;
     color: black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 17px;
@@ -316,14 +324,22 @@ and (min-device-width: 911px) {
     margin: 3%;
     font-family:'Courier New', Courier, monospace;
   }
+  .opis-poster-frame {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1%;
+  }
   .opis-poster-example {
-    max-width: 17%;
-    max-height: 17%;
+    max-width: 91%;
+    max-height: 91%;
   }
   .opis-poster-example:hover {
-    max-width: 23%;
-    max-height: 23%;
+    border: 1px solid black;
     transition: 0.3s;
+  }
+  .opis-poster-about {
+    margin-top: 1%;
+    font-family:'Courier New', Courier, monospace;
   }
 }
 
