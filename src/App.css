@@ -259,6 +259,7 @@ and (max-device-width: 900px) {
   .opis-poster-example {
     max-width: 91%;
     max-height: 91%;
+    margin: 7%;
   }
   .opis-poster-example:hover {
     border: 1px solid black;
@@ -266,6 +267,7 @@ and (max-device-width: 900px) {
   }
   .opis-poster-about {
     margin-top: 1%;
+    font-size: 11px;
     font-family:'Courier New', Courier, monospace;
   }
 }
