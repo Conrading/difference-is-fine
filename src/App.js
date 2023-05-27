@@ -30,8 +30,8 @@ class Główna extends Component {
   render () {
     let plakat = this.state.posters.map( i => {
       return(
-        <div>
-          <img className='opis-poster-example' alt='poster 1' src={i.src}/>
+        <div className='opis-poster-phoneview'>
+          <img className='opis-poster-example' alt='canvas' src={i.src}/>
           <div className='opis-poster-about'>{i.size}</div>
           <div className='opis-poster-about'>{i.type}</div>
           <div className='opis-poster-about'>{i.name}</div>

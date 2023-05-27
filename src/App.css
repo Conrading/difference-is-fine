@@ -256,10 +256,14 @@ and (max-device-width: 900px) {
     font-family:'Courier New', Courier, monospace;
     font-size: 11px;
   }
+  .opis-poster-phoneview {
+    margin: 7%;
+    border-bottom: gold solid 1px;
+  }
   .opis-poster-example {
     max-width: 91%;
     max-height: 91%;
-    margin: 7%;
+    margin: 3%;
   }
   .opis-poster-example:hover {
     border: 1px solid black;
