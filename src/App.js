@@ -146,7 +146,7 @@ class Główna extends Component {
           {this.state.poster === true && 
           <div>
             <div className='opis'>
-              constructing... or write to me, sichangyozu@gmail.com
+              write to me, sichangyozu@gmail.com
             </div>
             <div className='center-object'>
               <div className='opis-poster-frame'>{plakat}</div>
