@@ -17,12 +17,26 @@
 }
 
 
-.video-centering {
-  display: block;
-  margin: 0 auto;
-  width: 560px;
-  height: 315px;
+@media screen 
+and (max-device-width: 900px) {
+  .video-centering {
+    display: block;
+    margin: 0 auto;
+    width: 480px;
+    height: 252px;
+  }
 }
+
+@media screen 
+and (min-device-width: 911px) {
+  .video-centering {
+    display: block;
+    margin: 0 auto;
+    width: 560px;
+    height: 315px;
+  }
+}
+
 
 .head-frame {
   background-color: orange;
