@@ -87,7 +87,7 @@ class Główna extends Component {
               src="https://www.youtube.com/embed/TcdcQefoEWE" 
               title="YouTube video player" frameborder="0" 
               allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowfullscreen>
+              allowfullscreen="allowfullscreen">
             </iframe>
             <div className='opis'>
               I believe <b>Humans are ultimate version of machine</b>,

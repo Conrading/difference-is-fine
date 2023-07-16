@@ -17,24 +17,11 @@
 }
 
 
-@media screen 
-and (max-device-width: 900px) {
-  .video-centering {
-    display: block;
-    margin: 0 auto;
-    width: 112px;
-    height: 63px;
-  }
-}
-
-@media screen 
-and (min-device-width: 911px) {
-  .video-centering {
-    display: block;
-    margin: 0 auto;
-    width: 560px;
-    height: 315px;
-  }
+.video-centering {
+  display: block;
+  margin: 0 auto;
+  width: 560px;
+  height: 315px;
 }
 
 .head-frame {
