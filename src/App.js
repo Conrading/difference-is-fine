@@ -83,22 +83,31 @@ class Główna extends Component {
         <div className='opis-frame'>
           {this.state.background === true && 
           <div>
+            <iframe className='video-centering'
+              src="https://www.youtube.com/embed/TcdcQefoEWE" 
+              title="YouTube video player" frameborder="0" 
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen>
+            </iframe>
             <div className='opis'>
-              I have finished a story that cannot not be done by current artificial intelligence, 
-              means current AI couldn't reconstruct my story by any means,
-              especially if AI literally has consciousness. 
+              I believe <b>Humans are ultimate version of machine</b>,
+            </div>
+            <div className='opis'>
+              based on this hypothesis, I have finished a story, <b>'Difference is Fine'</b>,
+            </div>
+            <div className='opis'>
+              AI couldn't reconstruct the story by any means,
+              particularly if AI literally has consciousness.
               In other words, this story shows the difference between humans and current AI,
-              which perhaps further worth to think of the value of humans and AI.
+              which perhaps further show the value of humans and AI.
             </div>
             <div className='opis'>
-              Therefore I am selling posters for collecting fund for translation of my story, <b>'Difference is Fine'</b>.
+              I am currently <b>collecting fund</b> for translation, 
+              then you can read the story, watch the story.
             </div>
             <div className='opis'>
-              <b>Artificial intelligence cannot write this story.</b>
-            </div>
-            <div className='opis'>
-              I want to show to you, but I need to translate the story from Mandarin to English/Polish, 
-              thus <b>I am selling posters to support the translation</b>.
+              I wouldn't do this if I am machine.
+              I do this, because I am humans.
             </div>
             <div className='opis-about' onClick={() => {this.setState({opisIntroduction: !this.state.opisIntroduction})}}>
               {this.state.opisIntroduction === false && <div>-about the Writer-</div>}

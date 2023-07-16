@@ -7,7 +7,7 @@
   text-align: center;
 }
 .center-object {
-  margin: auto;
+  margin: 0 auto;
 }
 .text-pointer {
   cursor: pointer;
@@ -16,6 +16,26 @@
   color: rgba(77, 17, 17);
 }
 
+
+@media screen 
+and (max-device-width: 900px) {
+  .video-centering {
+    display: block;
+    margin: 0 auto;
+    width: 112px;
+    height: 63px;
+  }
+}
+
+@media screen 
+and (min-device-width: 911px) {
+  .video-centering {
+    display: block;
+    margin: 0 auto;
+    width: 560px;
+    height: 315px;
+  }
+}
 
 .head-frame {
   background-color: orange;
@@ -224,7 +244,6 @@ and (max-device-width: 900px) {
       51% {
         transition: .3s;
         color: gold;
-        font-family: cursive;
       }
       100% {
         transition: 0.3s;
@@ -300,7 +319,6 @@ and (min-device-width: 911px) {
       31% {
         transition: .3s;
         color: gold;
-        font-family: cursive;
       }
       71% {
         transition: .3s;
