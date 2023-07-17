@@ -110,7 +110,7 @@ class Główna extends Component {
               I do this, because I am humans.
             </div>
             <div className='opis-about' onClick={() => {this.setState({opisIntroduction: !this.state.opisIntroduction})}}>
-              {this.state.opisIntroduction === false && <div>-about the Writer-</div>}
+              {this.state.opisIntroduction === false && <div>-about the Author-</div>}
               {this.state.opisIntroduction === true && <div>-close-</div>}
             </div>
             {this.state.opisIntroduction === true &&
@@ -118,7 +118,7 @@ class Główna extends Component {
               <div><img className='opis-introduction-photo' src='https://pbs.twimg.com/media/FvjIH-eWYAIcGI4?format=jpg&name=small' alt='zdjędzie'/></div>
               <div>
                 <div className='opis-introduction-line'>
-                  my name is Conrading, I am from Taiwan, currently living in Wrocław in Poland.
+                  my name is Conrading, I am from Taiwan, currently living in Wrocław, Poland.
                 </div>
                 <div className='opis-introduction-line'>
                   I am passionate about writing story and <a href='https://soundcloud.com/sichangyozu'>music</a>. 
