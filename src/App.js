@@ -75,9 +75,9 @@ class Główna extends Component {
                     story: false, 
                     poster: true,
                     opisIntroduction: false
-                  })}} className='project-title'>Canvas</div>
+                  })}} className='project-title'>Purchase</div>
             <div className='limit-width-sieben'><hr /></div>
-            <div className='project-brief'>posters/canvas about the story</div>
+            <div className='project-brief'>posters/canvas</div>
           </div>
         </div>
         <div className='opis-frame'>

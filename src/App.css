@@ -81,7 +81,7 @@ and (max-device-width: 900px) {
   .main-claim {
     cursor: pointer;
     text-align: center;
-    padding: 3%;
+    padding: 1%;
     font-size: 11px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: beige;
@@ -168,7 +168,6 @@ and (max-device-width: 900px) {
   }
   .project-brief {
     margin: 0 auto;
-    width: 91%;
     padding: 1%;
     font-size: 11px;
     font-family:'Courier New', Courier, monospace;
