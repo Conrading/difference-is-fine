@@ -90,7 +90,7 @@ class Główna extends Component {
               allowfullscreen="allowfullscreen">
             </iframe>
             <div className='opis'>
-              I believe <b>Humans are ultimate version of machine</b>,
+              <b>Humans are ultimate version of machine</b>,
             </div>
             <div className='opis'>
               based on this hypothesis, I have finished a story, <b>'Difference is Fine'</b>,

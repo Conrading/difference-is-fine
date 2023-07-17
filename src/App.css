@@ -22,8 +22,8 @@ and (max-device-width: 900px) {
   .video-centering {
     display: block;
     margin: 0 auto;
-    width: 480px;
-    height: 252px;
+    width: 240px;
+    height: 126px;
   }
 }
 
