@@ -6,7 +6,7 @@ class Główna extends Component {
   constructor () {
     super ();
     this.state = {
-      background: false,
+      background: true,
       story: false, 
       poster: false,
       opisIntroduction: false,
@@ -144,12 +144,12 @@ class Główna extends Component {
               what he should sacrifice, and how much he should sacrifice.
             </div>
             <div className='opis'>
-              We all have a price in our mind about our self, 
+              We all have a price in our mind, 
               and we act according to the price, 
               choose a life, choose a job, choose a career, choose a family, all based on the price. 
               Now the boy needs to act, and he would act, 
-              once he decides the value about himself and the friendship, 
-              he would absolutely act, and his action would redefine himself, in a most unexpectedly and extreme way.
+              once he decides the value of himself and the friendship, 
+              he would absolutely act, and his action would redefine himself, in a most unexpected and extreme way.
             </div>
           </div>}
           {this.state.poster === true && 
