@@ -82,7 +82,7 @@ and (max-device-width: 900px) {
     cursor: pointer;
     text-align: center;
     padding: 3%;
-    font-size: 17px;
+    font-size: 11px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: beige;
   }
@@ -148,7 +148,7 @@ and (max-device-width: 900px) {
     padding: 3%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 71%;
+    width: 100%;
   }
   .project-eachcard {
     transition: 0.3s;
@@ -162,7 +162,7 @@ and (max-device-width: 900px) {
   }
   .project-title {
     margin: 0 auto;
-    width: 91%;
+    font-size: 13px;
     padding: 1%;
     cursor: pointer;
   }

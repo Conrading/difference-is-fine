@@ -77,7 +77,7 @@ class Główna extends Component {
                     opisIntroduction: false
                   })}} className='project-title'>Canvas</div>
             <div className='limit-width-sieben'><hr /></div>
-            <div className='project-brief'>Purchasing canvas about the story</div>
+            <div className='project-brief'>posters/canvas about the story</div>
           </div>
         </div>
         <div className='opis-frame'>
