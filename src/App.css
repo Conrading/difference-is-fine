@@ -90,13 +90,13 @@ and (max-device-width: 900px) {
 @media screen 
 and (min-device-width: 911px) {
   .main-claim {
-    cursor: pointer;
     text-align: center;
-    padding: 3%;
-    font-size: 31px;
+    padding: 1%;
+    font-size: 23px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: beige;
   }
+  /*
   .main-claim:hover span{
     color: beige;
     transition: .3s linear;
@@ -105,8 +105,9 @@ and (min-device-width: 911px) {
     padding: 1%;
   }
   .main-claim:hover span:nth-child(2)::after {
-    content: " for the Story";
+    content: " and future";
   }
+  */
   .main-claim span:nth-child(2) {
     animation-duration: 3s;
     animation-name: ai-moving;

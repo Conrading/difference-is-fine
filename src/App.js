@@ -47,7 +47,7 @@ class Główna extends Component {
           </a>
         </div>
         <div className='main-claim-background'>
-          <div className='main-claim'><span>Purchase </span><span>the Canvas</span></div>
+          <div className='main-claim'><span>Inspiration of </span><span>Unknown</span></div>
         </div>
         <div className='project-area'>
           <div className="project-eachcard">
