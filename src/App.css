@@ -16,14 +16,14 @@
   color: rgba(77, 17, 17);
 }
 
-
+/* video area begin*/
 @media screen 
 and (max-device-width: 900px) {
   .video-centering {
     display: block;
     margin: 0 auto;
-    width: 240px;
-    height: 126px;
+    width: 256px;
+    height: 144px;
   }
 }
 
@@ -36,7 +36,7 @@ and (min-device-width: 911px) {
     height: 315px;
   }
 }
-
+/* video area end*/
 
 .head-frame {
   background-color: orange;
@@ -82,7 +82,7 @@ and (max-device-width: 900px) {
     cursor: pointer;
     text-align: center;
     padding: 3%;
-    font-size: 31px;
+    font-size: 17px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: beige;
   }
@@ -146,6 +146,8 @@ and (max-device-width: 900px) {
   .project-area {
     margin: 0 auto;
     padding: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     width: 71%;
   }
   .project-eachcard {
