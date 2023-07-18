@@ -42,7 +42,7 @@ class Główna extends Component {
       <body>
         <div className='head-frame'>
           <div className='head-title'>Conrading</div>
-          <a className='head-icon' href="https://www.instagram.com/_conrading_/" target="_blank" rel="noopener noreferrer">
+          <a className='head-icon' href="https://www.instagram.com/in_conrading/" target="_blank" rel="noopener noreferrer">
             <img className='head-icon-img' alt="instagram" src="https://cdn3.iconfinder.com/data/icons/social-media-2208/64/Instagram-512.png"/>
           </a>
         </div>
