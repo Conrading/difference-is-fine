@@ -14,15 +14,18 @@ class Główna extends Component {
       posters: [
         {
           src: "https://pbs.twimg.com/media/FxI5jgLX0AMa4-l?format=jpg&name=small", 
-          size: '30x40 cm / 12x16"', type: "Canvas", name: "nyska-190633"
+          size: '30x40 cm / 12x16"', type: "Canvas", name: "nyska-190633",
+          url: "https://www.etsy.com/listing/1512427810/designed-from-powerful-quote"
         },
         {
           src: "https://pbs.twimg.com/media/FxKw4YbWIAA2j1i?format=jpg&name=small", 
-          size: '30x40 cm / 12x16"', type: "Canvas", name: "świdnicka-311293"
+          size: '30x40 cm / 12x16"', type: "Canvas", name: "świdnicka-311293",
+          url: ""
         },
         {
           src: "https://pbs.twimg.com/media/FxKxsNEXgAALboN?format=jpg&name=small", 
-          size: '30x40 cm / 12x16"', type: "Canvas", name: "prudnicka-513239"
+          size: '30x40 cm / 12x16"', type: "Canvas", name: "prudnicka-513239",
+          url: ""
         }
       ]
     }
@@ -31,10 +34,12 @@ class Główna extends Component {
     let plakat = this.state.posters.map( i => {
       return(
         <div className='opis-poster-phoneview'>
-          <img className='opis-poster-example' alt='canvas' src={i.src}/>
-          <div className='opis-poster-about'>{i.size}</div>
-          <div className='opis-poster-about'>{i.type}</div>
-          <div className='opis-poster-about'>{i.name}</div>
+          <a href={i.url}>
+            <img className='opis-poster-example' alt='canvas' src={i.src}/>
+          </a>
+          <div className='opis-poster-about'>size: {i.size}</div>
+          <div className='opis-poster-about'>type: {i.type}</div>
+          <div className='opis-poster-about'>name: {i.name}</div>
         </div>
       )
     } )
