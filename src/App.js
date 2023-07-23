@@ -16,7 +16,7 @@ class Główna extends Component {
           src: "https://i.etsystatic.com/45379609/r/il/76fe19/5116789272/il_1140xN.5116789272_au6j.jpg", 
           size: '30x40 cm / 12x16"', type: "Canvas", name: "nyska-190633",
           url: "https://www.etsy.com/listing/1512427810/designed-from-powerful-quote",
-          youtube: "https://youtu.be/IDIWj0FYZDc"
+          youtube: "https://youtu.be/7CpB6rzvg8M"
         },
         {
           src: "https://pbs.twimg.com/media/FxKw4YbWIAA2j1i?format=jpg&name=small", 
@@ -166,9 +166,6 @@ class Główna extends Component {
             <div className='center-object'>
               <div className='opis-poster-frame'>{plakat}</div>
             </div>  
-            <div className='opis'>
-              or write to me, sichangyozu@gmail.com
-            </div>
           </div>}
         </div>
         <br />
