@@ -13,19 +13,22 @@ class Główna extends Component {
 
       posters: [
         { //https://pbs.twimg.com/media/FxI5jgLX0AMa4-l?format=jpg&name=small
-          src: "https://i.etsystatic.com/45379609/r/il/2565f1/5105280600/il_794xN.5105280600_3b42.jpg", 
+          src: "https://i.etsystatic.com/45379609/r/il/76fe19/5116789272/il_1140xN.5116789272_au6j.jpg", 
           size: '30x40 cm / 12x16"', type: "Canvas", name: "nyska-190633",
-          url: "https://www.etsy.com/listing/1512427810/designed-from-powerful-quote"
+          url: "https://www.etsy.com/listing/1512427810/designed-from-powerful-quote",
+          youtube: "https://youtu.be/IDIWj0FYZDc"
         },
         {
           src: "https://pbs.twimg.com/media/FxKw4YbWIAA2j1i?format=jpg&name=small", 
           size: '30x40 cm / 12x16"', type: "Canvas", name: "świdnicka-311293",
-          url: ""
+          url: "",
+          youtube: ""
         },
         {
           src: "https://pbs.twimg.com/media/FxKxsNEXgAALboN?format=jpg&name=small", 
           size: '30x40 cm / 12x16"', type: "Canvas", name: "prudnicka-513239",
-          url: ""
+          url: "",
+          youtube: ""
         }
       ]
     }
@@ -40,6 +43,7 @@ class Główna extends Component {
           <div className='opis-poster-about'>size: {i.size}</div>
           <div className='opis-poster-about'>type: {i.type}</div>
           <div className='opis-poster-about'>name: {i.name}</div>
+          <a className='text-pointer opis-poster-about' href={i.youtube}>watch video</a>
         </div>
       )
     } )
