@@ -20,13 +20,13 @@ class Główna extends Component {
         },
         {
           src: "https://pbs.twimg.com/media/FxKw4YbWIAA2j1i?format=jpg&name=small", 
-          size: '30x40 cm / 12x16"', type: "Canvas", name: "świdnicka-311293",
+          size: 'working"', type: "working", name: "świdnicka-311293",
           url: "",
           youtube: ""
         },
         {
           src: "https://pbs.twimg.com/media/FxKxsNEXgAALboN?format=jpg&name=small", 
-          size: '30x40 cm / 12x16"', type: "Canvas", name: "prudnicka-513239",
+          size: 'working', type: "working", name: "prudnicka-513239",
           url: "",
           youtube: ""
         }
@@ -43,7 +43,7 @@ class Główna extends Component {
           <div className='opis-poster-about'>size: {i.size}</div>
           <div className='opis-poster-about'>type: {i.type}</div>
           <div className='opis-poster-about'>name: {i.name}</div>
-          <a className='text-pointer opis-poster-about' href={i.youtube}>watch video</a>
+          {i.youtube !== "" && <a className='text-pointer opis-poster-about' href={i.youtube}>watch video</a>}
         </div>
       )
     } )
