@@ -52,16 +52,33 @@ and (min-device-width: 911px) {
   /* adjustment */
   position: relative;
 }
-.head-title {
-  padding-top: 3px;
-  font-size: 23px;
-  font-family:'Lucida Sans';
-  color: black;
-  /* position horizontal*/
-  flex: 0 1 auto;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+@media screen 
+and (max-device-width: 900px) {
+  .head-title {
+    padding-top: 1px;
+    font-size: 17px;
+    font-family:'Lucida Sans';
+    color: black;
+    /* position horizontal*/
+    flex: 0 1 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media screen 
+and (min-device-width: 911px) {
+  .head-title {
+    padding-top: 3px;
+    font-size: 23px;
+    font-family:'Lucida Sans';
+    color: black;
+    /* position horizontal*/
+    flex: 0 1 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 .head-icon {
   align-content: center;
