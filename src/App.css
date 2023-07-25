@@ -15,6 +15,9 @@
 .text-pointer:hover {
   color: rgba(77, 17, 17);
 }
+.un-official-text {
+  font-family: cursive;
+}
 
 /* video area begin*/
 @media screen 
@@ -50,8 +53,9 @@ and (min-device-width: 911px) {
   position: relative;
 }
 .head-title {
+  padding-top: 3px;
   font-size: 23px;
-  font-family: cursive;
+  font-family:'Lucida Sans';
   color: black;
   /* position horizontal*/
   flex: 0 1 auto;
@@ -108,7 +112,7 @@ and (min-device-width: 911px) {
     content: " and future";
   }
   */
-  .main-claim span:nth-child(2) {
+  .main-claim span:nth-child(1) {
     animation-duration: 3s;
     animation-name: ai-moving;
   }
