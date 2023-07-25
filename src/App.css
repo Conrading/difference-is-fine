@@ -55,7 +55,7 @@ and (min-device-width: 911px) {
 @media screen 
 and (max-device-width: 900px) {
   .head-title {
-    padding-top: 1px;
+    padding-top: 3px;
     font-size: 17px;
     font-family:'Lucida Sans';
     color: black;
