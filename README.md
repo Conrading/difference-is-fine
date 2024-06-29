@@ -25,5 +25,5 @@ Builds the app to the `docs` folder.\ [GitHub Pages](https://conrading.github.io
 ```
 $ npm run build
 ```
-**this project is created in 2023**
+**this project is created in Wrocław**
 
