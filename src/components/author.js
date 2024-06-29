@@ -12,10 +12,10 @@ const Author = () => {
                     my name is Conrading, I am from Taiwan, currently living in Wrocław, Poland.
                 </div>
                 <div className='author-line'>
-                    I am passionate about writing story and <a href='https://soundcloud.com/sichangyozu'>music</a>. 
+                    I am passionate about writing story and music, you can refer to my <a href='https://soundcloud.com/conrading'>Soundcloud</a>. 
                 </div>
                 <div className='author-line'>
-                    the story now is only available in Chinese, I am growing fan based in instagram, hope one day I can have the story translated. 
+                    the story now is only available in Chinese, I am growing fanbase in instagram, hope one day I can have the story being translated. 
                 </div>
             </div>
         </div>  

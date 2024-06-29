@@ -1,11 +1,11 @@
 # Wrocław Project
 
-This project is for the promotion of story "Difference is Fine" [IG](https://www.instagram.com/differenceisfine/).
+This project is for the promotion of story `Difference is Fine` [IG](https://www.instagram.com/differenceisfine/).
 
-### website feature
+### react-pdf
 
-* current CSS includes phone scale.
-* usaing [react-PDF]((https://www.youtube.com/watch?v=0FRyKY_PMLE)) and refer to [video](https://www.youtube.com/watch?v=0FRyKY_PMLE)
+* using `react-pdf`(https://www.youtube.com/watch?v=0FRyKY_PMLE) 
+* referring to [video](https://www.youtube.com/watch?v=0FRyKY_PMLE)
 
 ##### Node version is 16.13.0
 
@@ -18,8 +18,7 @@ This project is for the promotion of story "Difference is Fine" [IG](https://www
 ##### GitHub Pages
 
 
-Builds the app to the `docs` folder.\
-[GitHub Pages](https://conrading.github.io/wroclaw-project/) 
+Builds the app to the `docs` folder.\ [GitHub Pages](https://conrading.github.io/wroclaw-project/) 
 
 * more information about github-page install [link](https://www.pluralsight.com/guides/deploying-github-pages-with-create-react-app)
 

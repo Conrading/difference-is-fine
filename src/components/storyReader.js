@@ -74,7 +74,7 @@ const StoryReader = () => {
         </div>
         <div className='pdf-body'>
             <Document  className='pdf-container'
-            file={StoryFile} 
+            file={StoryFile}
             onLoadSuccess={onDocumentLoadSuccess}
             >
             <Page pageNumber={pageNumber} width={inputSize}/>
