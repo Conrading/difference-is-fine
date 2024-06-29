@@ -4,8 +4,8 @@ import { pdfjs } from 'react-pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import 'react-pdf/dist/Page/TextLayer.css';
 import './storyReader.css'
-//import StoryFile from './differenceIsFine.pdf'
-
+import StoryFile from './differenceIsFine.pdf'
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const StoryReader = () => {
     const [numPages, setNumPages] = useState(null);
@@ -74,7 +74,7 @@ const StoryReader = () => {
         </div>
         <div className='pdf-body'>
             <Document  className='pdf-container'
-            file="https://github.com/Conrading/wroclaw-project/blob/main/public/differenceIsFine.pdf"
+            file={StoryFile}
             onLoadSuccess={onDocumentLoadSuccess}
             >
             <Page pageNumber={pageNumber} width={inputSize}/>
