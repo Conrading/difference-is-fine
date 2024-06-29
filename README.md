@@ -1,13 +1,13 @@
 # Wrocław Project
 
-This project is for collecting fund for translation of story "Difference is Fine" [IG](https://www.instagram.com/conrad.wroclaw/).
+This project is for the promotion of story "Difference is Fine" [IG](https://www.instagram.com/differenceisfine/).
 
 ### website feature
 
 * current CSS includes phone scale.
-* moving text when page loading 
+* usaing [react-PDF]((https://www.youtube.com/watch?v=0FRyKY_PMLE)) and refer to [video](https://www.youtube.com/watch?v=0FRyKY_PMLE)
 
-##### Node version is 14.11.0
+##### Node version is 16.13.0
 
 > tried higher version of node, but could't install React, then clean the cache, it works then [link](https://reactgo.com/npm-clear-cache/)
 

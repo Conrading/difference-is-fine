@@ -15,152 +15,27 @@
 .text-pointer:hover {
   color: rgba(77, 17, 17);
 }
-.un-official-text {
-  font-family: cursive;
-}
 
-/* video area begin*/
-@media screen 
-and (max-device-width: 900px) {
-  .video-centering {
-    display: block;
-    margin: 0 auto;
-    width: 256px;
-    height: 144px;
-  }
-}
 
-@media screen 
-and (min-device-width: 911px) {
-  .video-centering {
-    display: block;
-    margin: 0 auto;
-    width: 560px;
-    height: 315px;
-  }
-}
-/* video area end*/
-
-.head-frame {
-  background-color: orange;
+.main-container {
+  width: 71%;
   margin: 0 auto;
-  height: auto;
-  width: auto;
-  /* position content*/
-  display: flex;
-  justify-content: flex-start;
-  /* adjustment */
-  position: relative;
 }
-@media screen 
-and (max-device-width: 900px) {
-  .head-title {
-    padding-top: 5px;
-    font-size: 17px;
-    font-family:'Lucida Sans';
-    color: black;
-    /* position horizontal*/
-    flex: 0 1 auto;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
-@media screen 
-and (min-device-width: 911px) {
-  .head-title {
-    padding-top: 3px;
-    font-size: 23px;
-    font-family:'Lucida Sans';
-    color: black;
-    /* position horizontal*/
-    flex: 0 1 auto;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
-.head-icon {
-  align-content: center;
-  padding-right: 1%;
+
+.contentSwitcher {
+  padding: 5px 10px;
+  margin: 29px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  width: 51px;
   cursor: pointer;
-  /* position horizontal*/
-  flex: 0 1 auto;
-  transform: translateX(-50%);
-  margin-top: auto;
-  margin-left: auto;
 }
-.head-icon-img {
-  height: 29px;
+.contentSwitcher:hover {
+  border: 1px solid #504444;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-
-.main-claim-background {
-  background-color:black;
-}
-@media screen 
-and (max-device-width: 900px) {
-  .main-claim {
-    cursor: pointer;
-    text-align: center;
-    padding: 1%;
-    font-size: 11px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: beige;
-  }
-}
-@media screen 
-and (min-device-width: 911px) {
-  .main-claim {
-    text-align: center;
-    padding: 1%;
-    font-size: 23px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: beige;
-  }
-  /*
-  .main-claim:hover span{
-    color: beige;
-    transition: .3s linear;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 500;
-    padding: 1%;
-  }
-  .main-claim:hover span:nth-child(2)::after {
-    content: " and future";
-  }
-  */
-  .main-claim span:nth-child(1) {
-    animation-duration: 3s;
-    animation-name: ai-moving;
-  }
-  @keyframes ai-moving {
-    0% {
-      transition: .3s;
-      color: darkblue;
-    }
-    20% {
-      transition: .3s;
-      padding: 2%;
-      color:darkgoldenrod;
-    }
-    50% {
-      transition: .3s;
-      padding: 3%;
-      font-size: large;
-      color: burlywood;
-    }
-    70% {
-      transition: .3s;
-      padding: 2%;
-      color: gold;
-    }
-    100% {
-      transition: .3s;
-      background-color: antiquewhite;
-    }
-  }
-}
-
 
 /* posters area begin*/
 @media screen 
@@ -170,6 +45,9 @@ and (max-device-width: 900px) {
     padding: 3%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    min-height: 71vh; 
     width: 100%;
   }
   .project-eachcard {
@@ -178,21 +56,12 @@ and (max-device-width: 900px) {
     margin: 0 auto;
     padding: 3%;
   }
-  .limit-width-sieben {
-    margin-left: 3%;
-    width: 51%;
-  }
   .project-title {
+    text-align: center;
     margin: 0 auto;
     font-size: 13px;
     padding: 1%;
     cursor: pointer;
-  }
-  .project-brief {
-    margin: 0 auto;
-    padding: 1%;
-    font-size: 11px;
-    font-family:'Courier New', Courier, monospace;
   }
 }
 @media screen 
@@ -202,13 +71,14 @@ and (min-device-width: 911px) {
     padding: 3%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    min-height: 71vh; 
     width: 71%;
   }
   .project-eachcard {
-    border: 1px solid rgba(77, 17, 17);
     border-radius: 3px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color: whitesmoke;
     transition: 0.3s;
     width: 71%;
     margin: 0 auto;
@@ -216,30 +86,15 @@ and (min-device-width: 911px) {
   }
   .project-eachcard:hover {
     transition: 0.3s;
-    background-color: blanchedalmond;
-    border: 2px solid rgb(77, 17, 17);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
-  .limit-width-sieben {
-    margin-left: 3%;
-    width: 71%;
-  }
   .project-title {
+    text-align: center;
     margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 91%;
     padding: 1%;
     cursor: pointer;
-  }
-  .project-title:hover {
-    transition: 0.3s;
-    font-weight: 700;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .project-brief {
-    margin: 0 auto;
-    width: 91%;
-    padding: 1%;
-    font-family:'Courier New', Courier, monospace;
   }
 }
 /* posters area end */
@@ -247,160 +102,24 @@ and (min-device-width: 911px) {
 
 
 
-.opis-frame {
-  width: 71%;
-  margin: 0 auto;
-}
 @media screen 
 and (max-device-width: 900px) {
-  .opis {
-    margin: 3%;
-    color: black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 11px;
-    animation-duration: 1s;
-    animation-name: remarking;
-  }
-  @keyframes remarking {
-      0% {
-        color: rgb(245, 236, 236);
-      }
-      51% {
-        transition: .3s;
-        color: gold;
-      }
-      100% {
-        transition: 0.3s;
-        color: black
-      }
-  }
-  .opis-about {
-    cursor: pointer;
-    margin: 5%;
-    transition: 0.3s;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 7px;
-  }
-  .opis-about:hover {
-    cursor: pointer;
-    font-weight: 700;
-    color: darkmagenta;
-  }
-  .opis-introduction-frame {
-    margin: 2%;
-  }
-  .opis-introduction-photo {
-    margin: 0 auto;
-    height: 100%;
-    width: 51%
-  }
-  .opis-introduction-line {
-    margin: 1%;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 11px;
-  }
-  .opis-poster-phoneview {
-    margin: 7%;
-    padding-bottom: 3%;
-    border-bottom: ghostwhite solid 1px;
-  }
-  .opis-poster-example {
-    max-width: 91%;
-    max-height: 91%;
-    margin: 3%;
-  }
-  .opis-poster-example:hover {
-    border: 1px solid black;
-    transition: 0.3s;
-  }
-  .opis-poster-about {
-    margin-top: 1%;
-    font-size: 11px;
-    font-family:'Courier New', Courier, monospace;
-  }
   .bottom-note {
+    cursor: pointer;
     font-size: 11px;
     text-align: center;
     margin: 0 auto;
-    padding-top: 3%;
+    padding: 3%;
     width: 71%;
   }
 }
 @media screen 
 and (min-device-width: 911px) {
-  .opis {
-    margin: 3%;
-    color: black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 17px;
-    animation-duration: 1s;
-    animation-name: remarking;
-  }
-  @keyframes remarking {
-      0% {
-        color: rgb(245, 236, 236);
-      }
-      31% {
-        transition: .3s;
-        color: gold;
-      }
-      71% {
-        transition: .3s;
-        color: rgb(117, 5, 5);
-        font-family: cursive;
-      }
-      100% {
-        transition: 0.3s;
-        color: blue;
-      }
-  }
-  .opis-about {
-    cursor: pointer;
-    margin: 2%;
-    transition: 0.3s;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 17px;
-  }
-  .opis-about:hover {
-    cursor: pointer;
-    font-weight: 700;
-    color: darkmagenta;
-  }
-  .opis-introduction-frame {
-    margin: 2%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .opis-introduction-photo {
-    margin-left: 31%;
-    height: 100%;
-    width: 51%
-  }
-  .opis-introduction-line {
-    margin: 3%;
-    font-family:'Courier New', Courier, monospace;
-  }
-  .opis-poster-frame {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1%;
-  }
-  .opis-poster-example {
-    max-width: 91%;
-    max-height: 91%;
-  }
-  .opis-poster-example:hover {
-    border: 1px solid black;
-    transition: 0.3s;
-  }
-  .opis-poster-about {
-    margin-top: 1%;
-    font-family:'Courier New', Courier, monospace;
-  }
   .bottom-note {
+    cursor: pointer;
     text-align: center;
     margin: 0 auto;
-    padding-top: 3%;
+    padding: 3%;
     width: 71%;
   }
 }

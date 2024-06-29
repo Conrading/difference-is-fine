@@ -1,0 +1,19 @@
+.author-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+}
+.author-photo {
+    margin: 0 auto;
+    height: 100%;
+    width: 71%;
+    transition: 0.7s;
+}
+.author-line {
+    margin: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    width: 100%;
+    transition: 0.7s;
+}
