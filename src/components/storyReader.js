@@ -4,7 +4,7 @@ import { pdfjs } from 'react-pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import 'react-pdf/dist/Page/TextLayer.css';
 import './storyReader.css'
-import StoryFile from './differenceIsFine.pdf'
+//import StoryFile from './differenceIsFine.pdf'
 
 
 const StoryReader = () => {
@@ -74,7 +74,7 @@ const StoryReader = () => {
         </div>
         <div className='pdf-body'>
             <Document  className='pdf-container'
-            file={StoryFile}
+            file="https://github.com/Conrading/wroclaw-project/blob/main/public/differenceIsFine.pdf"
             onLoadSuccess={onDocumentLoadSuccess}
             >
             <Page pageNumber={pageNumber} width={inputSize}/>
