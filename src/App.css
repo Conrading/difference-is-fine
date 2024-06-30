@@ -39,7 +39,6 @@ and (max-device-width: 900px) {
   }
   /* main page button area*/  
   .project-area {
-    border-radius: 4px;
     background-image: url('https://conrading.github.io/wroclaw-project/accessFile/04.jpg');
     background-size: cover; 
     background-position: center; 
@@ -60,6 +59,7 @@ and (max-device-width: 900px) {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 11px;
+    color: aliceblue;
     cursor: pointer;
   }
 }
