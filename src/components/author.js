@@ -15,7 +15,7 @@ const Author = () => {
                     I am passionate about writing story and music, you can refer to my <a href='https://soundcloud.com/conrading'>Soundcloud</a>. 
                 </div>
                 <div className='author-line'>
-                    the story now is only available in Chinese, I am growing fanbase in instagram, hope one day I can have the story being translated. 
+                    the story "Difference is Fine" now is only available in Chinese, I am growing fanbase in instagram, hope one day I can have the story being translated. 
                 </div>
             </div>
         </div>  

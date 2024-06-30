@@ -44,7 +44,7 @@ and (max-device-width: 900px) {
     background-position: center; 
     background-repeat: no-repeat; 
     margin: 11%;
-    padding: 7%;
+    padding-top: 301px;
     min-height: 371px;
     justify-content: center;
     align-items: center;
@@ -59,7 +59,6 @@ and (max-device-width: 900px) {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 11px;
-    color: aliceblue;
     cursor: pointer;
   }
 }

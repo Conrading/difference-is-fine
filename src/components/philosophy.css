@@ -6,17 +6,24 @@ and (max-device-width: 900px) {
     display: block;
     margin: 0 auto;
     width: 256px;
-    height: 144px;
+    height: 144px;  
   }
 }
 
 @media screen 
 and (min-device-width: 911px) {
+  .video-container {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
   .video-centering {
     display: block;
     margin: 0 auto;
-    width: 560px;
-    height: 315px;
+    width: 196px;
+    height: 348.5px;
   }
 }
 /* video area end*/

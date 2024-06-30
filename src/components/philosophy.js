@@ -4,34 +4,33 @@ import './philosophy.css'
 const Philosophy = () => {
     return (
         <body>
-            <iframe className='video-centering'
-            src="https://www.youtube.com/embed/TcdcQefoEWE" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            allowfullscreen="allowfullscreen">
-            </iframe>
+            <div className='video-container'>
+                <iframe className='video-centering'
+                    width="392" height="697" 
+                    src="https://www.youtube.com/embed/iYvSiBpKqrY" 
+                    title="how God might Engineer Humans | Difference is Fine" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+                <iframe className='video-centering'
+                    width="392" height="697" 
+                    src="https://www.youtube.com/embed/bo6mf9JpUs0" 
+                    title="Humans might be constructed based on quantum physics to function as highly efficient Machines." 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
             <div className='opis'>
             <b>Humans are ultimate version of machine</b>,
             </div>
             <div className='opis'>
             based on this hypothesis, I have finished a story, <b>'Difference is Fine'</b>,
             </div>
-            <div className='opis'>
-            AI couldn't reconstruct the story by any means,
-            particularly if AI literally has consciousness.
-            In other words, this story shows the difference between humans and current AI,
-            which perhaps further show the value of humans and AI.
-            </div>
-            <div className='opis'>
-            I am currently <b>collecting fund</b> for translation, 
-            then you can read the story, watch the story.
-            </div>
-            <div className='opis'>
-            I wouldn't do this if I am machine.
-            I do this, because I am humans.
-            </div>
         </body>
     )
 }
+
 
 export default Philosophy
