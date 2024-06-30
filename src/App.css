@@ -18,32 +18,34 @@
 
 
 
+.main-container {
+  width: 71%;
+  margin: 0 auto;
+  transition: 1s;
+}
 @media screen 
 and (max-device-width: 900px) {
-  .main-container {
-    margin: 0 auto;
-    transition: 1s;
-  }
   /* back button only show in each component */  
   .contentSwitcher {
     padding: 5px 5px;
     margin: 29px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11px;
     border: 1px solid #ccc;
     border-radius: 4px;
     text-align: center;
-    width: 23px;
+    width: 31px;
     cursor: pointer;
   }
   /* main page button area*/  
   .project-area {
     border: 1px solid #a19f9f;
     border-radius: 4px;
+    background-color: #a19f9f;
     margin: 11%;
     padding: 7%;
     justify-content: center;
     align-items: center;
-    width: 100%;
   }
   .project-eachcard {
     transition: 0.3s;
@@ -53,18 +55,13 @@ and (max-device-width: 900px) {
   }
   .project-title {
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 11px;
     cursor: pointer;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 }
 @media screen 
 and (min-device-width: 911px) {
-  .main-container {
-    width: 71%;
-    margin: 0 auto;
-    transition: 1s;
-  }
   /* back button only show in each component */  
   .contentSwitcher {
     padding: 5px 10px;
