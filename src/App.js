@@ -17,6 +17,7 @@ class Główna extends Component {
         <div className='main-container'>
           {this.state.contentSwitch === "default" &&
           <div className='project-area'>
+            <div className='project-phone-only-background'></div>
             <div onClick={() => {this.setState({contentSwitch: "Philosophy"})}} className="project-eachcard project-eachcard-philosophy">
               <div className='project-title'>the Philosophy</div>
             </div>
