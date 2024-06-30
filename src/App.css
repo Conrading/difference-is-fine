@@ -17,14 +17,13 @@
 }
 
 
-.main-container {
-  width: 71%;
-  margin: 0 auto;
-  transition: 1s;
-}
 
 @media screen 
 and (max-device-width: 900px) {
+  .main-container {
+    margin: 0 auto;
+    transition: 1s;
+  }
   /* back button only show in each component */  
   .contentSwitcher {
     padding: 5px 5px;
@@ -38,9 +37,9 @@ and (max-device-width: 900px) {
   }
   /* main page button area*/  
   .project-area {
-    margin: 0 auto;
-    border: 1px solid #ccc;
+    border: 1px solid #a19f9f;
     border-radius: 4px;
+    margin: 11%;
     padding: 7%;
     justify-content: center;
     align-items: center;
@@ -61,6 +60,11 @@ and (max-device-width: 900px) {
 }
 @media screen 
 and (min-device-width: 911px) {
+  .main-container {
+    width: 71%;
+    margin: 0 auto;
+    transition: 1s;
+  }
   /* back button only show in each component */  
   .contentSwitcher {
     padding: 5px 10px;
