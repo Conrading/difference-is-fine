@@ -81,6 +81,7 @@ const StoryReader = () => {
             //below the way loading PDf file from folder, either Public or Component works only at local side
             //file={`${process.env.PUBLIC_URL}/differenceIsFine.pdf`}
             //file={process.env.PUBLIC_URL + '/differenceIsFine.pdf'}
+            onLoadError={console.error}
             onLoadSuccess={onDocumentLoadSuccess}
             >
                 <Page pageNumber={pageNumber} width={inputSize}/>

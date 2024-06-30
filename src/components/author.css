@@ -9,14 +9,14 @@ and (max-device-width: 900px) {
     .author-photo {
         margin: 0 auto;
         height: 100%;
-        width: 71%;
+        width: 91%;
         transition: 0.7s;
     }
     .author-line {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 11px;
         margin: 13px;
-        width: 100%;
+        width: 91%;
         transition: 0.7s;
     }
 }
