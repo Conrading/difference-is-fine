@@ -23,49 +23,56 @@
   transition: 1s;
 }
 
-.contentSwitcher {
-  padding: 5px 10px;
-  margin: 29px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  text-align: center;
-  width: 51px;
-  cursor: pointer;
-}
-.contentSwitcher:hover {
-  border: 1px solid #504444;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-/* posters area begin*/
 @media screen 
 and (max-device-width: 900px) {
+  .contentSwitcher {
+    padding: 5px 10px;
+    margin: 29px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    width: 31px;
+    cursor: pointer;
+  }
+  /* main page button area*/  
   .project-area {
     margin: 0 auto;
     padding: 3%;
     justify-content: center;
     align-items: center;
-    min-height: 71vh; 
     width: 100%;
   }
   .project-eachcard {
     transition: 0.3s;
-    width: 91%;
-    margin: 0 auto;
-    padding: 3%;
+    margin: 11%;
+    padding: 5%;
     cursor: pointer;
   }
   .project-title {
     text-align: center;
-    margin: 0 auto;
     font-size: 13px;
-    padding: 1%;
     cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 }
 @media screen 
 and (min-device-width: 911px) {
+  .contentSwitcher {
+    padding: 5px 10px;
+    margin: 29px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    width: 51px;
+    cursor: pointer;
+  }
+  .contentSwitcher:hover {
+    border: 1px solid #504444;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  /* main page button area*/    
   .project-area {
     margin: 0 auto;
     padding: 3%;

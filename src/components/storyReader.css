@@ -11,6 +11,7 @@
 and (max-device-width: 900px) {
     .upper-page-text {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 11px;
         margin-right: 11px;
     }
 }
@@ -48,6 +49,7 @@ and (min-device-width: 911px) {
 and (max-device-width: 900px) {
     .upper-page-size-button {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 11px;
         padding: 1px;
         border: 1px solid #ccc;
         border-radius: 3px;
@@ -107,7 +109,6 @@ and (min-device-width: 911px) {
 and (max-device-width: 900px) {
     .button-page {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        width: 5%;
         background: none; 
         border: none; 
         color: #007BFF; 
