@@ -56,6 +56,7 @@ and (max-device-width: 900px) {
     width: 91%;
     margin: 0 auto;
     padding: 3%;
+    cursor: pointer;
   }
   .project-title {
     text-align: center;
@@ -84,10 +85,31 @@ and (min-device-width: 911px) {
     width: 71%;
     margin: 0 auto;
     padding: 1%;
+    cursor: pointer;
   }
   .project-eachcard:hover {
-    transition: 0.3s;
+    background-image: url('https://i1.sndcdn.com/avatars-000630027939-oz4eqi-t200x200.jpg');
+    background-size: cover; /* Ensures the image covers the whole element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    min-height: 31vh;
+    transition: 1.3s ease;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    animation: expanding 2.5s
+  }
+  @keyframes expanding {
+    0% {
+      min-height: 0vh;
+    }
+    30% {
+      min-height: 11vh;
+    }
+    50% {
+      min-height: 17vh;
+    }
+    70% {
+      min-height: 23vh;
+    }
   }
   .project-title {
     text-align: center;
