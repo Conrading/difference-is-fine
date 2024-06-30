@@ -74,7 +74,7 @@ const StoryReader = () => {
         </div>
         <div className='pdf-body'>
             <Document className='pdf-container'
-            file="https://conrading.github.io/wroclaw-project/differenceIsFine.pdf" 
+            file={{url: "https://conrading.github.io/wroclaw-project/differenceIsFine.pdf" }}
             //consititue from project url "https://conrading.github.io/wroclaw-project/" + file name "differenceIsFine.pdf" in "Public" folder
             //works at local site by loading PDF from url
 
@@ -83,7 +83,7 @@ const StoryReader = () => {
             //file={process.env.PUBLIC_URL + '/differenceIsFine.pdf'}
             onLoadSuccess={onDocumentLoadSuccess}
             >
-            <Page pageNumber={pageNumber} width={inputSize}/>
+                <Page pageNumber={pageNumber} width={inputSize}/>
             </Document>
         </div>
         <div className='button-container'>

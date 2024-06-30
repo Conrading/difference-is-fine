@@ -6,9 +6,20 @@
     margin: 0; 
     transition: 0.7s;
 }
-.upper-page-text {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-right: 17px;
+
+@media screen 
+and (max-device-width: 900px) {
+    .upper-page-text {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-right: 11px;
+    }
+}
+@media screen 
+and (min-device-width: 911px) {
+    .upper-page-text {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-right: 17px;
+    }
 }
 .upper-page-input-form {
     display: flex;
@@ -33,18 +44,34 @@
     border-radius: 4px;
     cursor: pointer;
 }
-.upper-page-size-button {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 3px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-left: 31px;
-    background-color:unset;
-    cursor: pointer;
-    transition: 0.7s;
+@media screen 
+and (max-device-width: 900px) {
+    .upper-page-size-button {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 1px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        margin-left: 17px;
+        background-color:unset;
+        cursor: pointer;
+        transition: 0.7s;
+    }
 }
-.upper-page-size-button:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+@media screen 
+and (min-device-width: 911px) {
+    .upper-page-size-button {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 3px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-left: 31px;
+        background-color:unset;
+        cursor: pointer;
+        transition: 0.7s;
+    }
+    .upper-page-size-button:hover {
+        box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1); 
+    }
 }
 
 .pdf-body {
@@ -76,14 +103,31 @@
     margin: 0; 
     background-color: #f0f0f0; 
 }
-.button-page {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 7%;
-    background: none; 
-    border: none; 
-    color: #007BFF; 
-    font-size: 16px; 
-    cursor: pointer; 
-    padding: 5px; 
-    margin: 5px; 
+@media screen 
+and (max-device-width: 900px) {
+    .button-page {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 5%;
+        background: none; 
+        border: none; 
+        color: #007BFF; 
+        font-size: 11px; 
+        cursor: pointer; 
+        padding: 3px; 
+        margin: 3px; 
+    }
+}
+@media screen 
+and (min-device-width: 911px) {
+    .button-page {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 7%;
+        background: none; 
+        border: none; 
+        color: #007BFF; 
+        font-size: 16px; 
+        cursor: pointer; 
+        padding: 5px; 
+        margin: 5px; 
+    }
 }

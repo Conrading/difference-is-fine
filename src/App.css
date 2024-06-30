@@ -44,8 +44,6 @@ and (max-device-width: 900px) {
   .project-area {
     margin: 0 auto;
     padding: 3%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
     min-height: 71vh; 
