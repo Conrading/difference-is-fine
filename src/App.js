@@ -18,13 +18,13 @@ class Główna extends Component {
         <div className='main-container'>
           {this.state.contentSwitch === "default" &&
           <div className='project-area'>
-            <div onClick={() => {this.setState({contentSwitch: "Philosophy"})}} className="project-eachcard">
+            <div onClick={() => {this.setState({contentSwitch: "Philosophy"})}} className="project-eachcard project-eachcard-philosophy">
               <div className='project-title'>the Philosophy</div>
             </div>
-            <div onClick={() => {this.setState({contentSwitch: "Story"})}} class="project-eachcard">
+            <div onClick={() => {this.setState({contentSwitch: "Story"})}} class="project-eachcard project-eachcard-readStory">
               <div className='project-title'>read the Story</div>
             </div>
-            <div onClick={() => {this.setState({contentSwitch: "Author"})}} class="project-eachcard">
+            <div onClick={() => {this.setState({contentSwitch: "Author"})}} class="project-eachcard project-eachcard-aboutAuthor">
               <div className='project-title'>about Author</div>
             </div>
           </div>}
