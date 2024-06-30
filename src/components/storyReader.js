@@ -4,7 +4,7 @@ import { pdfjs } from 'react-pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import 'react-pdf/dist/Page/TextLayer.css';
 import './storyReader.css'
-//import StoryFile from './differenceIsFine.pdf'
+//import StoryFile from './differenceIsFine.pdf' //the file is at the same folder under "components"
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const StoryReader = () => {
@@ -74,7 +74,11 @@ const StoryReader = () => {
         </div>
         <div className='pdf-body'>
             <Document className='pdf-container'
-            file="https://conrading.github.io/wroclaw-project/differenceIsFine.pdf"
+            file="https://conrading.github.io/wroclaw-project/differenceIsFine.pdf" 
+            //consititue from project url "https://conrading.github.io/wroclaw-project/" + file name "differenceIsFine.pdf" in "Public" folder
+            //works at local site by loading PDF from url
+
+            //below the way loading PDf file from folder, either Public or Component works only at local side
             //file={`${process.env.PUBLIC_URL}/differenceIsFine.pdf`}
             //file={process.env.PUBLIC_URL + '/differenceIsFine.pdf'}
             onLoadSuccess={onDocumentLoadSuccess}
