@@ -94,19 +94,19 @@ and (min-device-width: 911px) {
     animation: expanding 1.7s
   }
   .project-eachcard-philosophy:hover {
-    background-image: url('https://i1.sndcdn.com/avatars-000630027939-oz4eqi-t200x200.jpg');
+    background-image: url('https://github.com/Conrading/wroclaw-project/blob/main/docs/accessFile/20240519_reelCover.jpeg?raw=true');
     background-size: cover; /* Ensures the image covers the whole element */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
   }
   .project-eachcard-readStory:hover {
-    background-image: url('https://www.instagram.com/p/C2aO5t-oRfP/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==');
+    background-image: url('https://github.com/Conrading/wroclaw-project/blob/main/docs/accessFile/240519.jpeg?raw=true');
     background-size: cover; /* Ensures the image covers the whole element */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
   }
   .project-eachcard-aboutAuthor:hover {
-    background-image: url('https://pbs.twimg.com/media/FvjIH-eWYAIcGI4?format=jpg&name=small');
+    background-image: url('https://github.com/Conrading/wroclaw-project/blob/main/docs/accessFile/ISO_05.jpeg?raw=true');
     background-size: cover; /* Ensures the image covers the whole element */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
