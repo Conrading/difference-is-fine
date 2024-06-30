@@ -94,22 +94,22 @@ and (min-device-width: 911px) {
     animation: expanding 1.7s
   }
   .project-eachcard-philosophy:hover {
-    background-image: url('https://github.com/Conrading/wroclaw-project/blob/main/docs/accessFile/20240519_reelCover.jpeg?raw=true');
+    background-image: url('https://github.com/Conrading/wroclaw-project/blob/main/docs/accessFile/20240519_reelCover.jpeg?raw=true'); /**/
     background-size: cover; /* Ensures the image covers the whole element */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
   }
   .project-eachcard-readStory:hover {
     background-image: url('https://github.com/Conrading/wroclaw-project/blob/main/docs/accessFile/240519.jpeg?raw=true');
-    background-size: cover; /* Ensures the image covers the whole element */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
   }
   .project-eachcard-aboutAuthor:hover {
     background-image: url('https://github.com/Conrading/wroclaw-project/blob/main/docs/accessFile/ISO_05.jpeg?raw=true');
-    background-size: cover; /* Ensures the image covers the whole element */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
   }
   @keyframes expanding {
     from {

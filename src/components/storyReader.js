@@ -74,6 +74,7 @@ const StoryReader = () => {
         </div>
         <div className='pdf-body'>
             <Document  className='pdf-container'
+            //file={{url: 'https://github.com/Conrading/wroclaw-project/blob/main/public/accessFile/differenceIsFine.pdf'}}
             file={process.env.PUBLIC_URL + '/accessFile/differenceIsFine.pdf'}
             onLoadSuccess={onDocumentLoadSuccess}
             >
