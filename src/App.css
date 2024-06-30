@@ -41,10 +41,10 @@ and (max-device-width: 900px) {
   .project-area {
     border: 1px solid #a19f9f;
     border-radius: 4px;
-    background-color: #a19f9f;
-    margin-top: 71px;
+    background-image: url('https://photos.app.goo.gl/sCaQdk8GAMrghHcX6');
     margin: 11%;
     padding: 7%;
+    height: 71px;
     justify-content: center;
     align-items: center;
   }
@@ -58,6 +58,7 @@ and (max-device-width: 900px) {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 11px;
+    color: aliceblue;
     cursor: pointer;
   }
 }
