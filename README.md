@@ -4,7 +4,7 @@ This project is for the promotion of story `Difference is Fine` [IG](https://www
 
 ### react-pdf
 
-* using `react-pdf`(https://react-pdf.org/) 
+* using [react-pdf](https://react-pdf.org/) 
 * referring to [video](https://www.youtube.com/watch?v=0FRyKY_PMLE)
 
 ##### Node version is 16.13.0
