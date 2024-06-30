@@ -74,7 +74,7 @@ const StoryReader = () => {
         </div>
         <div className='pdf-body'>
             <Document  className='pdf-container'
-            file={'/differenceIsFine.pdf'}
+            file={process.env.PUBLIC_URL + '/accessFile/differenceIsFine.pdf'}
             onLoadSuccess={onDocumentLoadSuccess}
             >
             <Page pageNumber={pageNumber} width={inputSize}/>
