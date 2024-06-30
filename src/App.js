@@ -4,7 +4,6 @@ import StoryReader from './components/storyReader'
 import Author from './components/author'
 import './App.css';
 
-
 class Główna extends Component {
   constructor () {
     super ();

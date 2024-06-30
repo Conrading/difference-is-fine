@@ -94,7 +94,7 @@ and (min-device-width: 911px) {
     animation: expanding 1.7s
   }
   .project-eachcard-philosophy:hover {
-    background-image: url('https://github.com/Conrading/wroclaw-project/blob/main/docs/accessFile/20240519_reelCover.jpeg?raw=true'); /**/
+    background-image: "https://github.com/Conrading/wroclaw-project/blob/main/docs/accessFile/20240519_reelCover.jpeg?raw=true"; /**/
     background-size: cover; /* Ensures the image covers the whole element */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
