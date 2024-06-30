@@ -39,9 +39,8 @@ and (max-device-width: 900px) {
   }
   /* main page button area*/  
   .project-area {
-    border: 1px solid #a19f9f;
     border-radius: 4px;
-    background-image: url('https://lh3.googleusercontent.com/pw/AP1GczOJbs4004Io8zncPx236Y9ozQA4xzrVDMbdyl-raYTOwyHLVG4RiPGT0juyvobX5-1IEgkm_5AxF3f0VFQeqzje2IqLxeYB6o9PGbV7SWL-EDzXGwcsnrze5IHO5Fxplw8WqpwckTYVUkjE2WOS8-1b=w464-h825-s-no-gm?authuser=0');
+    background-image: url('https://conrading.github.io/wroclaw-project/accessFile/04.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -54,14 +53,13 @@ and (max-device-width: 900px) {
   .project-eachcard {
     transition: 0.3s;
     margin: 11%;
-    padding: 5%;
+    padding: 3%;
     cursor: pointer;
   }
   .project-title {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 11px;
-    color: aliceblue;
     cursor: pointer;
   }
 }

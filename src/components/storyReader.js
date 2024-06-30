@@ -5,7 +5,7 @@ import 'react-pdf/dist/Page/AnnotationLayer.css';
 import 'react-pdf/dist/Page/TextLayer.css';
 import './storyReader.css'
 //import StoryFile from './differenceIsFine.pdf' //the file is at the same folder under "components"
-//pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const StoryReader = () => {
     const [numPages, setNumPages] = useState(null);
@@ -13,6 +13,7 @@ const StoryReader = () => {
     const [inputPage, setInputPage] = useState("");
     const [inputSize, setInputSize] = useState(511);
     const [showingSize, setShowingSize] = useState("Page Size: 100%")
+    const pdfUrl = "https://conrading.github.io/wroclaw-project/differenceIsFine.pdf";
   
     const onDocumentLoadSuccess = ({ numPages }) => {
       setNumPages(numPages);
@@ -74,7 +75,7 @@ const StoryReader = () => {
         </div>
         <div className='pdf-body'>
             <Document className='pdf-container'
-            file={{url: "https://conrading.github.io/wroclaw-project/differenceIsFine.pdf" }}
+            file={{url: pdfUrl }}
             //consititue from project url "https://conrading.github.io/wroclaw-project/" + file name "differenceIsFine.pdf" in "Public" folder
             //works at local site by loading PDF from url
 
