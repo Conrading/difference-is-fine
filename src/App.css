@@ -47,6 +47,7 @@ and (max-device-width: 900px) {
     background-repeat: no-repeat; 
     margin: 11%;
     padding: 7%;
+    min-height: 371px;
     justify-content: center;
     align-items: center;
   }
