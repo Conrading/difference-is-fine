@@ -4,19 +4,20 @@ import { pdfjs } from 'react-pdf';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import 'react-pdf/dist/Page/TextLayer.css';
 import './storyReader.css'
-//import StoryFile from './differenceIsFine.pdf' //the file is at the same folder under "components"
+//import StoryFile from './differenceIsFine.pdf' //load from local file, same folder under "components"
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const StoryReader = () => {
-    const [numPages, setNumPages] = useState(null);
-    const [pageNumber, setPageNumber] = useState(1);
+    const [totalPages, setTotalPages] = useState(null);
+    const [eachPageNumber, setEachPageNumber] = useState(1);
     const [inputPage, setInputPage] = useState("");
     const [inputSize, setInputSize] = useState(511);
     const [showingSize, setShowingSize] = useState("Page Size: 100%")
     const pdfUrl = "https://conrading.github.io/wroclaw-project/differenceIsFine.pdf";
-  
+
     const onDocumentLoadSuccess = ({ numPages }) => {
-      setNumPages(numPages);
+      console.log("total number of page of pdf is: " + numPages)
+      setTotalPages(numPages);
     };
 
     pdfjs.GlobalWorkerOptions.workerSrc = new URL(
@@ -25,16 +26,16 @@ const StoryReader = () => {
       ).toString();
   
     const handlePageInputChange = (event) => {
-    setInputPage(event.target.value);
+        setInputPage(event.target.value);
     };
 
     const handlePageInputSubmit = (event) => {
         event.preventDefault(); // Prevent default form submission behavior
-        const pageNumber = parseInt(inputPage, 10);
-        if (pageNumber >= 1 && pageNumber <= numPages) {
-        setPageNumber(pageNumber);
+        const eachPage = parseInt(inputPage, 10);
+        if (eachPage >= 1 && eachPage <= totalPages) {
+            setEachPageNumber(eachPage);
         } else {
-        alert(`Please enter a page number between 1 and ${numPages}`);
+            alert(`Please enter a page number between 1 and ${totalPages}`);
         }
     };
 
@@ -57,14 +58,14 @@ const StoryReader = () => {
       <div>
         <div className='upper-page-container'>
             <p className='upper-page-text'>
-                Page {pageNumber} of {numPages}
+                Page {eachPageNumber} of {totalPages}
             </p>
             <form onSubmit={handlePageInputSubmit} className="upper-page-input-form">
                 <input
                 type="number"
                 value={inputPage}
                 onChange={handlePageInputChange}
-                placeholder={`Enter page (1-${numPages})`}
+                placeholder={`Enter page (1-${totalPages})`}
                 className="upper-page-input"
                 />
                 <button type="submit" className="upper-page-go-button">
@@ -76,23 +77,21 @@ const StoryReader = () => {
         <div className='pdf-body'>
             <Document className='pdf-container'
             file={{ url: pdfUrl }}
-            //consititue from project url "https://conrading.github.io/wroclaw-project/" + file name "differenceIsFine.pdf" in "Public" folder
-            //works at local site by loading PDF from url
-
-            //below the way loading PDf file from folder, either Public or Component works only at local side
+            //below the way loading PDf file from folder, either Public or Component, but works only at local side
             //file={`${process.env.PUBLIC_URL}/differenceIsFine.pdf`}
-            //file={process.env.PUBLIC_URL + '/differenceIsFine.pdf'}
+            //file={StoryFile} //when we need load from local side
             onLoadError={console.error}
             onLoadSuccess={onDocumentLoadSuccess}
             >
-                <Page pageNumber={pageNumber} width={inputSize}/>
+                <Page pageNumber={eachPageNumber} width={inputSize}/>
+                {/*<Page pageNumber={eachPageNumber} width={inputSize}/> */}
             </Document>
         </div>
         <div className='button-container'>
-        <button className='button-page' disabled={pageNumber <= 1} onClick={() => setPageNumber(pageNumber - 1)}>
+        <button className='button-page' disabled={eachPageNumber <= 1} onClick={() => setEachPageNumber(eachPageNumber - 1)}>
             Previous
         </button>
-        <button className='button-page' disabled={pageNumber >= numPages} onClick={() => setPageNumber(pageNumber + 1)}>
+        <button className='button-page' disabled={eachPageNumber >= totalPages} onClick={() => setEachPageNumber(eachPageNumber + 1)}>
             Next
         </button>
         </div>

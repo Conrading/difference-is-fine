@@ -5,14 +5,12 @@ and (max-device-width: 900px) {
         margin: 0; 
         justify-content: center;
         align-items: center;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 11px
     }
     .author-photo {
         margin: 0 auto;
-        height: 100%;
-        width: 100%;
+        border-radius: 4px;
+        height: 51%;
+        width: 51%;
         transition: 0.7s;
     }
     .author-line {
@@ -33,16 +31,16 @@ and (min-device-width: 911px) {
     }
     .author-photo {
         margin: 0 auto;
-        border-radius: 4px;
-        height: 100%;
-        width: 100%;
+        border-radius: 11px;
+        height: 79%;
+        width: 79%;
         transition: 0.7s;
     }
     .author-line {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 17px;
-        margin: 3%;
-        width: 100%;
+        padding: 3%;
+        width: 71%;
         transition: 0.7s;
     }
 }
