@@ -85,7 +85,7 @@ const StoryReader = () => {
             onLoadError={console.error}
             onLoadSuccess={onDocumentLoadSuccess}
             >
-                <Page pageNumber={1} width={inputSize}/>
+                <Page pageNumber={pageNumber} width={inputSize}/>
             </Document>
         </div>
         <div className='button-container'>
