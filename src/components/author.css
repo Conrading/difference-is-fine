@@ -9,7 +9,7 @@ and (max-device-width: 900px) {
     .author-photo {
         margin: 0 auto;
         height: 100%;
-        width: 91%;
+        width: 100%;
         transition: 0.7s;
     }
     .author-line {
@@ -25,7 +25,7 @@ and (min-device-width: 911px) {
     .author-photo {
         margin: 0 auto;
         height: 100%;
-        width: 71%;
+        width: 100%;
         transition: 0.7s;
     }
     .author-line {

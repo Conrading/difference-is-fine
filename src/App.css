@@ -39,6 +39,7 @@ and (max-device-width: 900px) {
   }
   /* main page button area*/  
   .project-phone-only-background {
+    border-radius: 4px;
     background-image: url('https://conrading.github.io/wroclaw-project/accessFile/04.jpg');
     background-size: cover; 
     background-position: center; 
