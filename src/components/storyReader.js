@@ -75,7 +75,7 @@ const StoryReader = () => {
         </div>
         <div className='pdf-body'>
             <Document className='pdf-container'
-            file={{ url: `https://cors-anywhere.herokuapp.com/${pdfUrl}` }}
+            file={{ url: pdfUrl }}
             //consititue from project url "https://conrading.github.io/wroclaw-project/" + file name "differenceIsFine.pdf" in "Public" folder
             //works at local site by loading PDF from url
 
