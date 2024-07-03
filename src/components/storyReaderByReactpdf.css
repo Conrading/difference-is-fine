@@ -1,0 +1,134 @@
+
+.upper-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    transition: 0.7s;
+}
+
+@media screen 
+and (max-device-width: 900px) {
+    .upper-page-text {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 11px;
+        margin-right: 11px;
+    }
+}
+@media screen 
+and (min-device-width: 911px) {
+    .upper-page-text {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-right: 17px;
+    }
+}
+.upper-page-input-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adds space between the input and the button */
+}
+.upper-page-input {
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 79px; /* Adjust width as needed */
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.upper-page-go-button {
+    padding: 5px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+@media screen 
+and (max-device-width: 900px) {
+    .upper-page-size-button {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 11px;
+        padding: 1px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        margin-left: 17px;
+        background-color:unset;
+        cursor: pointer;
+        transition: 0.7s;
+    }
+}
+@media screen 
+and (min-device-width: 911px) {
+    .upper-page-size-button {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 3px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-left: 31px;
+        background-color:unset;
+        cursor: pointer;
+        transition: 0.7s;
+    }
+    .upper-page-size-button:hover {
+        box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1); 
+    }
+}
+
+.pdf-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 71vh; 
+    padding-top: 17px;
+    margin: 0; 
+    background-color: #f0f0f0; 
+    transition: 0.7s;
+}
+
+.pdf-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white; 
+    padding: 20px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    transition: 0.7s;
+  }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    background-color: #f0f0f0; 
+}
+@media screen 
+and (max-device-width: 900px) {
+    .button-page {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background: none; 
+        border: none; 
+        color: #007BFF; 
+        font-size: 11px; 
+        cursor: pointer; 
+        padding: 3px; 
+        margin: 3px; 
+    }
+}
+@media screen 
+and (min-device-width: 911px) {
+    .button-page {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 7%;
+        background: none; 
+        border: none; 
+        color: #007BFF; 
+        font-size: 16px; 
+        cursor: pointer; 
+        padding: 5px; 
+        margin: 5px; 
+    }
+}
