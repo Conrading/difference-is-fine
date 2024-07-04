@@ -8,6 +8,10 @@
     border-radius: 11px;
     padding: 11px;
   }
+.pdf-viewer-container:hover {
+  background-color: rgb(50, 50, 51); 
+  transition: 1.3s;
+}
   
   @media screen 
   and (max-device-width: 900px) {
@@ -25,13 +29,8 @@
       border: none; 
       border-radius: 11px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-      width: 910px; 
-      height: 1000px; 
       max-width: 100%; 
       max-height: 100%; 
-    }
-    .pdf-iframe:hover {
-      box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1); 
     }
   }
   
