@@ -1,21 +1,22 @@
-/* src/PDFViewer.css */
 
-/* Ensure the container takes up the full viewport height and centers its content */
 .pdf-viewer-container {
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    height: 100vh; /* Full height of the viewport */
-    background-color: #f0f0f0; /* Optional: light gray background */
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: #f0f0f0; 
+    border-radius: 11px;
+    padding: 11px;
   }
   
   /* Style the iframe to appear as a single page */
   .pdf-iframe {
-    border: none; /* Remove default iframe border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
-    width: 710px; /* Fixed width for single page display */
-    height: 1170px; /* Fixed height for single page display */
-    max-width: 100%; /* Ensure it doesn't overflow on smaller screens */
-    max-height: 100%; /* Ensure it doesn't overflow on smaller screens */
+    border: none; 
+    border-radius: 11px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 910px; 
+    height: 1100px; 
+    max-width: 100%; 
+    max-height: 100%; 
   }
   
