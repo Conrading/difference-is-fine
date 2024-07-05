@@ -32,17 +32,23 @@ class Główna extends Component {
           </div>}
           {this.state.contentSwitch === "Philosophy" && 
           <div>
+            <div className='backGap'></div>
             <div onClick={() => {this.setState({contentSwitch: "default"})}} className='contentSwitcher'>Back</div>
+            <div className='backGap'></div>
             <Philosophy />
           </div>}
           {this.state.contentSwitch === "Story" && 
           <div>
+            <div className='backGap'></div>
             <div onClick={() => {this.setState({contentSwitch: "default"})}} className='contentSwitcher'>Back</div>
+            <div className='backGap'></div>
             <StoryReader />
           </div>}
           {this.state.contentSwitch === "Author" && 
           <div>
+            <div className='backGap'></div>
             <div onClick={() => {this.setState({contentSwitch: "default"})}} className='contentSwitcher'>Back</div>
+            <div className='backGap'></div>
             <Author />
           </div>}
         </div>

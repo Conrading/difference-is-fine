@@ -13,6 +13,17 @@ and (max-device-width: 900px) {
         width: 51%;
         padding-left: 13px;
         transition: 0.7s;
+        animation: photoShaking 1.7s
+    }
+    @keyframes photoShaking {
+      from {
+        width: 41%;
+        height: 41%;
+      }
+      to {
+        width: 51%;
+        height: 51%;
+      }
     }
     .author-line {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -33,9 +44,22 @@ and (min-device-width: 911px) {
     .author-photo {
         margin: 0 auto;
         border-radius: 11px;
-        height: 83%;
-        width: 83%;
+        height: 89%;
+        width: 89%;
         transition: 0.7s;
+    }
+    .author-photo:hover {
+        animation: photoShaking 1.7s
+    }
+    @keyframes photoShaking {
+      from {
+        width: 61%;
+        height: 61%;
+      }
+      to {
+        width: 89%;
+        height: 89%;
+      }
     }
     .author-line-container {
         border-radius: 7px;

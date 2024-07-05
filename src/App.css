@@ -28,7 +28,6 @@ and (max-device-width: 900px) {
   /* back button only show in each component */  
   .contentSwitcher {
     padding: 5px 5px;
-    margin: 29px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 11px;
     border: 1px solid #ccc;
@@ -36,6 +35,9 @@ and (max-device-width: 900px) {
     text-align: center;
     width: 31px;
     cursor: pointer;
+  }
+  .backGap {
+    margin: 29px;
   }
   /* main page button area*/  
   .project-phone-only-background {
@@ -69,8 +71,7 @@ and (max-device-width: 900px) {
 and (min-device-width: 911px) {
   /* back button only show in each component */  
   .contentSwitcher {
-    padding: 5px 10px;
-    margin: 29px;
+    padding: 5px 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -81,6 +82,9 @@ and (min-device-width: 911px) {
   .contentSwitcher:hover {
     border: 1px solid #504444;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .backGap {
+    margin: 29px;
   }
   /* main page button area*/    
   .project-area {
