@@ -24,7 +24,10 @@ const PDFViewer = () => {
         <div className='preReadingText'>maybe follow <a href="https://www.instagram.com/differenceisfine/">Instagram</a> to see interesting update</div>
         {isMobile ? 
         (
-          <div className='preReadingText'>and sorry this is not available on phone interface 抱歉無法在手機試閱</div>
+          <div className='preReadingText'>
+            <div>and sorry story is not available on phone interface</div> 
+            <div>抱歉無法在手機試閱</div>
+          </div>
         ): (
           <div onClick={switchPreReading} className='preReadingToggle'>試閱100頁</div>
         )
