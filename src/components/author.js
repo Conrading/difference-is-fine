@@ -18,7 +18,7 @@ const Author = () => {
                 </div>
                 <div className='author-line'>
                     <div>the story "Difference is Fine" now is only available in Chinese, before I have it translated, you can find different works associated with the story on <a href="https://www.instagram.com/differenceisfine/">Instagram</a>, such as quantum mechanics. </div>
-                    <div>既然你懂中文，也許可以參考一點「在所不息」，除此之外，我同時還在<a href="https://www.instagram.com/differenceisfine/">Instagram</a>分享了關於這故事的其他創作，可以從其他方面看量子力學是如何啟發我完成這個故事。</div>
+                    <div>既然你懂中文，也許可以試閱一點「在所不息」，除此之外，我同時還在<a href="https://www.instagram.com/differenceisfine/">Instagram</a>分享了關於這故事的其他創作，可以從其他方面看量子力學是如何啟發我完成這個故事。</div>
                 </div>
                 <div className='author-line'>
                     <div>-- 2024 二零二四年</div>
