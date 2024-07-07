@@ -20,7 +20,7 @@ const PDFViewer = () => {
     <div>
       {preReadingToggle === true && 
       <div className='preReadingContainer'>
-        <div className='preReadingText'>Hey, sorry the story currently is only available in Chinese</div>
+        <div className='preReadingText'>Hey, the story currently is only available in Chinese</div>
         <div className='preReadingText'>maybe follow <a href="https://www.instagram.com/differenceisfine/">Instagram</a> to see interesting update</div>
         {isMobile ? 
         (

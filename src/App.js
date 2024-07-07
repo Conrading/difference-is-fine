@@ -54,7 +54,7 @@ class Główna extends Component {
         </div>
         <br />
         <div className='bottom-note'>
-          <a href="https://www.instagram.com/differenceisfine/">Conrading | 是暢又澍</a>
+          <div>Conrading 是暢又澍 | instagram:<a href="https://www.instagram.com/differenceisfine/">@differenceisfine</a></div>          
         </div>
         <br />
       </body>

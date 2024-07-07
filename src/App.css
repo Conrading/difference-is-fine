@@ -156,19 +156,23 @@ and (min-device-width: 911px) {
 @media screen 
 and (max-device-width: 900px) {
   .bottom-note {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto;
     cursor: pointer;
     font-size: 11px;
-    text-align: center;
-    margin: 0 auto;
     padding: 3%;
   }
 }
 @media screen 
 and (min-device-width: 911px) {
   .bottom-note {
-    cursor: pointer;
-    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
     margin: 0 auto;
+    cursor: pointer;
     padding: 3%;
     width: 71%;
   }
