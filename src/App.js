@@ -10,10 +10,27 @@ class Główna extends Component {
     this.state = {
       contentSwitch: "default",
     }
+  }  componentDidMount() {
+    this.addShapes();
+  }
+
+  addShapes() {
+    const container = document.querySelector('.background-upper');
+    for (let i = 0; i < 30; i++) { // Create 30 shapes
+      const shape = document.createElement('div');
+      shape.classList.add('shape');
+      container.appendChild(shape);
+    }
+
+    // Add final rectangle
+    const finalRectangle = document.createElement('div');
+    finalRectangle.classList.add('final-rectangle');
+    container.appendChild(finalRectangle);
   }
   render () {
     return (
       <body>
+        <div className='background-upper'></div>
         <div className='main-container'>
           {this.state.contentSwitch === "default" &&
           <div>
