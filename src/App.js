@@ -15,7 +15,7 @@ class Główna extends Component {
   }
 
   addShapes() {
-    const container = document.querySelector('.background-upper');
+    const container = document.querySelector('.background-motion');
     for (let i = 0; i < 30; i++) { // Create 30 shapes
       const shape = document.createElement('div');
       shape.classList.add('shape');

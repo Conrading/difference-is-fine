@@ -7,9 +7,6 @@ and (max-device-width: 900px) {
     align-items: center;
   }  
   .left-column, .right-column {
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
     margin: 13px;
   }  
   /* image area begin */
@@ -52,7 +49,7 @@ and (max-device-width: 900px) {
   .video-centering {
     display: block;
     margin: 0 auto;
-    width: auto;
+    width: 171px;
     height: 231px;  
   }
   /* video area end */
