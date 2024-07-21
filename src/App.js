@@ -30,7 +30,7 @@ class Główna extends Component {
   render () {
     return (
       <body>
-        <div className='background-upper'></div>
+        <div className='background-motion'></div>
         <div className='main-container'>
           {this.state.contentSwitch === "default" &&
           <div>
