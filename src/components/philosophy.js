@@ -3,30 +3,33 @@ import './philosophy.css'
 
 const Philosophy = () => {
     const [isImageEnlarged, setIsImageEnlarged] = useState(false);
+    const [enlargedImageUrl, setEnlargedImageUrl] = useState(null);
     
-    const handleImageClick = () => {
+    const handleImageClick = (imageUrl) => {
         setIsImageEnlarged(true);
+        setEnlargedImageUrl(imageUrl);
     };
     
     const handleCloseClick = () => {
         setIsImageEnlarged(false);
+        setEnlargedImageUrl(null);
     };
       
     return (
         <body>
-            <div className='main-frame'>
+            <div className='main-frame background-upper'>
                 <div className="left-column">
                     <img 
                     className="thumbnail" 
                     src='https://conrading.github.io/wroclaw-project/accessFile/05.jpg' 
                     alt="Image" 
-                    onClick={handleImageClick} 
+                    onClick={() => handleImageClick('https://conrading.github.io/wroclaw-project/accessFile/05.jpg')} 
                     />
                     {isImageEnlarged && (
                     <div className="overlay" onClick={handleCloseClick}>
                         <div className="enlarged-image-container">
                         <img 
-                            src='https://conrading.github.io/wroclaw-project/accessFile/05.jpg' 
+                            src={enlargedImageUrl} 
                             alt="enlarged" 
                             className="enlarged-image" 
                         />
@@ -60,13 +63,13 @@ const Philosophy = () => {
                     className="thumbnail" 
                     src='https://conrading.github.io/wroclaw-project/accessFile/06.jpg' 
                     alt="Image" 
-                    onClick={handleImageClick} 
+                    onClick={() => handleImageClick('https://conrading.github.io/wroclaw-project/accessFile/06.jpg')} 
                     />
                     {isImageEnlarged && (
                     <div className="overlay" onClick={handleCloseClick}>
                         <div className="enlarged-image-container">
                         <img 
-                            src='https://conrading.github.io/wroclaw-project/accessFile/06.jpg' 
+                            src={enlargedImageUrl} 
                             alt="enlarged" 
                             className="enlarged-image" 
                         />

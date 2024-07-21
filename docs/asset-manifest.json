@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wroclaw-project/static/css/main.a9ca39f1.css",
-    "main.js": "/wroclaw-project/static/js/main.d8ac5c6e.js",
+    "main.css": "/wroclaw-project/static/css/main.032627c6.css",
+    "main.js": "/wroclaw-project/static/js/main.e8e0f1de.js",
     "static/js/787.ef80654c.chunk.js": "/wroclaw-project/static/js/787.ef80654c.chunk.js",
     "index.html": "/wroclaw-project/index.html",
-    "main.a9ca39f1.css.map": "/wroclaw-project/static/css/main.a9ca39f1.css.map",
-    "main.d8ac5c6e.js.map": "/wroclaw-project/static/js/main.d8ac5c6e.js.map",
+    "main.032627c6.css.map": "/wroclaw-project/static/css/main.032627c6.css.map",
+    "main.e8e0f1de.js.map": "/wroclaw-project/static/js/main.e8e0f1de.js.map",
     "787.ef80654c.chunk.js.map": "/wroclaw-project/static/js/787.ef80654c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9ca39f1.css",
-    "static/js/main.d8ac5c6e.js"
+    "static/css/main.032627c6.css",
+    "static/js/main.e8e0f1de.js"
   ]
 }

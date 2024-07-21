@@ -44,8 +44,8 @@ and (min-device-width: 911px) {
     .author-photo {
         margin: 0 auto;
         border-radius: 11px;
-        height: 89%;
-        width: 89%;
+        height: 91%;
+        width: 91%;
         transition: 0.7s;
     }
     .author-photo:hover {
@@ -64,7 +64,7 @@ and (min-device-width: 911px) {
     .author-line-container {
         border-radius: 7px;
         background-color: aliceblue;
-        height: 51vh;
+        height: auto;
     }
     .author-line-container:hover {
         transition: 0.7s;
