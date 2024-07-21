@@ -32,10 +32,16 @@ and (min-device-width: 911px) {
   }
   /* background area begin */
   .background-upper {
-    background-image: url('https://conrading.github.io/wroclaw-project/accessFile/Designer-1.jpg');
+    background-image: url('https://conrading.github.io/wroclaw-project/accessFile/Designer-1.jpg');  
+    background-position: center;  
+    background-size: cover;    
+    background-repeat: no-repeat; 
   }
   .background-bottom {
     background-image: url('https://conrading.github.io/wroclaw-project/accessFile/Designer-2.jpg');
+    background-position: center;  
+    background-size: cover;    
+    background-repeat: no-repeat; 
   }
   /* background area end */
   .left-column, .right-column {
