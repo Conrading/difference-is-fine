@@ -5,40 +5,9 @@ and (max-device-width: 900px) {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-  }  
-  /* image area begin */
-  .thumbnail {
-    width: 100%;
-    cursor: pointer;
-  }  
-  .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 17px
   }  
-  .enlarged-image-container {
-    position: relative;
-  }  
-  .enlarged-image {
-    max-width: 83%;
-    max-height: 83%;
-  }  
-  .enlarged-image-container:after {
-    content: '✖';
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    font-size: 24px;
-    color: white;
-    cursor: pointer;
-  }
-  /* image area end */
   /* video area begin */
   .video-centering {
     display: block;
@@ -63,8 +32,10 @@ and (min-device-width: 911px) {
   }
   /* background area begin */
   .background-upper {
-    background-color: aliceblue;
-    border-radius: 13px;
+    background-image: url('https://conrading.github.io/wroclaw-project/accessFile/Designer-1.jpg');
+  }
+  .background-bottom {
+    background-image: url('https://conrading.github.io/wroclaw-project/accessFile/Designer-2.jpg');
   }
   /* background area end */
   .left-column, .right-column {

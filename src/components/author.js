@@ -13,7 +13,7 @@ const Author = () => {
                     <div>是暢又澍，來自台灣，現居波蘭 Wrocław。</div>
                 </div>
                 <div className='author-line'>
-                    <div>I am passionate about writing story and music <a href='https://soundcloud.com/conrading'>SoundCloud</a>. Guess my self-esteem is too high, always want to prove myself.</div> 
+                    <div>I am passionate about writing story and music <a href='https://soundcloud.com/conrading'>SoundCloud</a>. Guess I have too much ego, always want to prove myself.</div> 
                     <div>寫作和音樂反映了我的靈魂 <a href='https://soundcloud.com/conrading'>SoundCloud</a>，也許也反映了我是多麼自我中心的人。</div>
                 </div>
                 <div className='author-line'>

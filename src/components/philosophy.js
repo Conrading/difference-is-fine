@@ -48,7 +48,7 @@ const Philosophy = () => {
                     </iframe>
                 </div>
             </div>
-            <div className='main-frame'>
+            <div className='main-frame background-bottom'>
                 <div className="left-column">
                     <iframe className='video-centering'
                         src="https://www.youtube.com/embed/bo6mf9JpUs0" 
