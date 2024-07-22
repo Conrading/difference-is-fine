@@ -58,12 +58,10 @@ and (min-device-width: 911px) {
     }
     @keyframes photoShaking {
       from {
-        width: 61%;
-        height: 61%;
+        opacity: 0;
       }
       to {
-        width: 89%;
-        height: 89%;
+        opacity: 1;
       }
     }
     .author-line-container {
