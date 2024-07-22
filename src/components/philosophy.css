@@ -11,12 +11,14 @@ and (max-device-width: 900px) {
   }  
   /* background area begin */
   .background-upper {
+    border-top-left-radius: 7px;
     background-position: center;  
     background-size: cover;    
     background-repeat: no-repeat; 
     transition: 0.7s;
   }
   .background-bottom {
+    border-bottom-right-radius: 7px;
     background-position: center;  
     background-size: cover;    
     background-repeat: no-repeat; 

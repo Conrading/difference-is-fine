@@ -4,7 +4,7 @@ import './author.css'
 const Author = () => {
     return (
         <div className='author-container'>
-            <div>
+            <div className='author-photo-container'>
                 <img className='author-photo' src='https://pbs.twimg.com/media/FvjIH-eWYAIcGI4?format=jpg&name=small' alt='zdjędzie'/>
             </div>
             <div className='author-line-container'>

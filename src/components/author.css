@@ -1,10 +1,10 @@
 
 @media screen 
 and (max-device-width: 900px) {
-    .author-container {
-        margin: 0; 
-        justify-content: center;
-        align-items: center;
+    .author-photo-container {
+      margin: 0; 
+      justify-content: center;
+      align-items: center;
     }
     .author-photo {
         margin: 0 auto;
@@ -28,6 +28,7 @@ and (max-device-width: 900px) {
     .author-line-container {
         margin-top: 13px;
         border-radius: 7px;
+        padding: 7px;
         background-color: aliceblue;
         height: auto;
     }
