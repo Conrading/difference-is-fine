@@ -25,6 +25,12 @@ and (max-device-width: 900px) {
         height: 51%;
       }
     }
+    .author-line-container {
+        margin-top: 13px;
+        border-radius: 7px;
+        background-color: aliceblue;
+        height: auto;
+    }
     .author-line {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 11px;

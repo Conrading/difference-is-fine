@@ -11,14 +11,12 @@ and (max-device-width: 900px) {
   }  
   /* background area begin */
   .background-upper {
-    background-color: azure;
     background-position: center;  
     background-size: cover;    
     background-repeat: no-repeat; 
     transition: 0.7s;
   }
   .background-bottom {
-    background-color: azure;
     background-position: center;  
     background-size: cover;    
     background-repeat: no-repeat; 
