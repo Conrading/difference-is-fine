@@ -8,7 +8,6 @@ and (max-device-width: 900px) {
     }
     .author-photo {
         margin: 0 auto;
-        border-radius: 4px;
         height: 51%;
         width: 51%;
         padding-left: 13px;
