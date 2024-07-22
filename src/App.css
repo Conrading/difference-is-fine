@@ -46,6 +46,7 @@ and (max-device-width: 900px) {
     background-position: center; 
     background-repeat: no-repeat; 
     margin-top: 11%;
+    margin-bottom: 11%;
     width: auto;
     height: 71px;
   }
@@ -60,6 +61,62 @@ and (max-device-width: 900px) {
     padding: 3%;
     cursor: pointer;
   }
+  /* main page button area*/  
+  /* left button area*/   
+  .project-eachcard-philosophy {
+    animation: moveUp 5s;
+  }
+  @keyframes moveUp {
+    0% {
+      border: 2px solid rgb(81, 81, 124);
+      transform: translate(0, 0) rotate(0deg);
+      opacity: 1;
+    }
+    50% {
+      transform: translate(-31px, -31px) rotate(180deg);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translate(0, 0) rotate(360deg);
+      opacity: 1;
+    }
+  }
+  /* left button area*/  
+  /* middle button area*/  
+  .project-eachcard-readStory {
+    animation: appear 5s;
+  }
+  @keyframes appear {
+    0% {
+      border: 2px solid rgb(81, 81, 124);
+      box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  } 
+  /* middle button area*/  
+  /* right button area*/  
+  .project-eachcard-aboutAuthor {
+    animation: moveDown 5s;
+  }
+  @keyframes moveDown {
+    0% {
+      border: 1px solid rgb(81, 81, 124);
+      transform: translate(0, 0) rotate(0deg);
+      opacity: 1;
+    }
+    50% {
+      transform: translate(31px, 31px) rotate(180deg);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translate(0, 0) rotate(360deg);
+      opacity: 1;
+    }
+  }
+  /* right button area*/ 
   .project-title {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -132,7 +189,7 @@ and (min-device-width: 911px) {
       opacity: 1;
     }
     50% {
-      transform: translate(11px, 11px) rotate(180deg);
+      transform: translate(31px, 31px) rotate(180deg);
       opacity: 0.5;
     }
     100% {
@@ -179,7 +236,7 @@ and (min-device-width: 911px) {
       opacity: 1;
     }
     50% {
-      transform: translate(-11px, -11px) rotate(180deg);
+      transform: translate(-31px, -31px) rotate(180deg);
       opacity: 0.5;
     }
     100% {
