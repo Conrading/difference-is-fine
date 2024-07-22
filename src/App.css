@@ -46,6 +46,7 @@ and (max-device-width: 900px) {
     background-position: center; 
     background-repeat: no-repeat; 
     margin-top: 11%;
+    width: auto;
   }
   .project-area {
     margin: 11%;

@@ -2,7 +2,7 @@
 @media screen 
 and (max-device-width: 900px) {
     .author-photo-container {
-      margin: 0; 
+      margin: 0 auto; 
       justify-content: center;
       align-items: center;
     }
@@ -10,7 +10,6 @@ and (max-device-width: 900px) {
         margin: 0 auto;
         height: 51%;
         width: 51%;
-        padding-left: 13px;
         transition: 0.7s;
         animation: photoShaking 1.7s
     }
