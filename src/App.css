@@ -46,9 +46,9 @@ and (max-device-width: 900px) {
     background-position: center; 
     background-repeat: no-repeat; 
     margin-top: 11%;
-    margin-bottom: 31px;
+    margin-bottom: 111px;
     width: auto;
-    height: 111px;
+    height: 71px;
     animation: appear 5s;
   }
   .project-area {
@@ -71,10 +71,10 @@ and (max-device-width: 900px) {
     0% {
       transition: 0.5s;
       transform: translate(-131px, 0);
-      opacity: 1;
+      opacity: 0.25;
     }
     50% {
-      transform: translate(-31px, -31px) rotate(10deg);
+      transform: translate(-31px, 0) rotate(10deg);
       opacity: 0.5;
     }
     100% {
@@ -105,14 +105,14 @@ and (max-device-width: 900px) {
     0% {
       transition: 0.5s;
       transform: translate(131px, 0);
-      opacity: 1;
+      opacity: 0.25;
     }
     50% {
-      transform: translate(31px, 31px) rotate(10deg);
+      transform: translate(31px, 0) rotate(10deg);
       opacity: 0.5;
     }
     100% {
-      transform: translate(0, 0) rotate(360deg);
+      transform: translate(0, 0) rotate(0deg);
       opacity: 1;
     }
   }
@@ -184,12 +184,13 @@ and (min-device-width: 911px) {
   }
   @keyframes moveDown {
     0% {
-      border: 1px solid rgb(81, 81, 124);
+      border: 2px solid rgb(81, 81, 124);
       transform: translate(0, 0) rotate(0deg);
       opacity: 1;
     }
     50% {
-      transform: translate(31px, 31px) rotate(180deg);
+      border: 1px solid rgb(154, 154, 172);
+      transform: translate(31px, 31px) rotate(-180deg);
       opacity: 0.5;
     }
     100% {
@@ -236,6 +237,7 @@ and (min-device-width: 911px) {
       opacity: 1;
     }
     50% {
+      border: 1px solid rgb(154, 154, 172);
       transform: translate(-31px, -31px) rotate(180deg);
       opacity: 0.5;
     }
