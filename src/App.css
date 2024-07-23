@@ -48,7 +48,8 @@ and (max-device-width: 900px) {
     margin-top: 11%;
     margin-bottom: 31px;
     width: auto;
-    height: 71px;
+    height: 111px;
+    animation: appear 5s;
   }
   .project-area {
     margin: 11%;
@@ -68,15 +69,16 @@ and (max-device-width: 900px) {
   }
   @keyframes moveUp {
     0% {
-      transform: translate(0, 0) rotate(0deg);
+      transition: 0.5s;
+      transform: translate(-131px, 0);
       opacity: 1;
     }
     50% {
-      transform: translate(-31px, -31px) rotate(180deg);
+      transform: translate(-31px, -31px) rotate(10deg);
       opacity: 0.5;
     }
     100% {
-      transform: translate(0, 0) rotate(360deg);
+      transform: translate(0, 0) rotate(0deg);
       opacity: 1;
     }
   }
@@ -101,11 +103,12 @@ and (max-device-width: 900px) {
   }
   @keyframes moveDown {
     0% {
-      transform: translate(0, 0) rotate(0deg);
+      transition: 0.5s;
+      transform: translate(131px, 0);
       opacity: 1;
     }
     50% {
-      transform: translate(31px, 31px) rotate(180deg);
+      transform: translate(31px, 31px) rotate(10deg);
       opacity: 0.5;
     }
     100% {
