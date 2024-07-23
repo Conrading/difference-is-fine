@@ -26,7 +26,6 @@ const PDFViewer = () => {
         (
           <div className='preReadingText'>
             <br />
-            <div>and sorry story is not available on phone interface</div> 
             <div>抱歉無法在手機試閱</div>
           </div>
         ): (
