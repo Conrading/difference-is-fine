@@ -12,7 +12,7 @@ const Author = () => {
                     <div>my name is Conrading, I am from Taiwan, currently living in Wrocław, Poland. </div>
                     <div>I am passionate about writing story and music <a href='https://soundcloud.com/conrading'>SoundCloud</a>. Guess I have too much ego, always want to prove myself.</div> 
                     <br/>
-                    <div>"Difference is Fine" is my story, now is only available in Chinese, before I have it translated, maybe you can find different discussion associated with the story on <a href="https://www.instagram.com/differenceisfine/">Instagram</a>, such as quantum mechanics. </div>
+                    <div>"Difference is Fine" is my story, now it is only available in Chinese. Before I have it translated, maybe you can find different discussion associated with the story on <a href="https://www.instagram.com/differenceisfine/">Instagram</a>, such as quantum mechanics. </div>
                     </div>
                 <div className='author-line'>
                     <div>是暢又澍，來自台灣，現居波蘭 Wrocław。</div>
