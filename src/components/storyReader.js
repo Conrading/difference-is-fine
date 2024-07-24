@@ -8,7 +8,7 @@ const PDFViewer = () => {
 
   const pdfWidth = "100%"
   const pdfHeight = "100%"
-  const storySource = "https://conrading.github.io/wroclaw-project/Difference_is_Fine[githubVersion].pdf";
+  const storySource = "https://conrading.github.io/wroclaw-project/在所不息試閱2024版.pdf";
   //const pdfUrl = `${storySource}#toolbar=0`;
   const pdfUrl = `${storySource}`;
   const isMobile = window.innerWidth <= 900;
@@ -20,8 +20,8 @@ const PDFViewer = () => {
     <div>
       {preReadingToggle === true && 
       <div className='preReadingContainer'>
-        <div className='preReadingText'>Hey, the story currently is only available in Chinese</div>
-        <div className='preReadingText'>I am trying to get fund for translation, either English or Polish</div>
+        <div className='preReadingText'>sorry, the story currently is only available in Chinese</div>
+        <div className='preReadingText'>I am trying to get fund for translation, either English or Polish, hope can let you see soon.</div>
         {isMobile ? 
         (
           <div className='preReadingText'>
