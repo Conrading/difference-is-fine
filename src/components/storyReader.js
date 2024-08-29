@@ -21,7 +21,7 @@ const PDFViewer = () => {
       {preReadingToggle === true && 
       <div className='preReadingContainer'>
         <div className='preReadingText'>sorry, the story currently is only available in Chinese</div>
-        <div className='preReadingText'>I am trying to get fund for translation, either English or Polish, hope can let you see soon.</div>
+        <div className='preReadingText'>I am trying to get fund for translation, hope can let you see soon.</div>
         {isMobile ? 
         (
           <div className='preReadingText'>
