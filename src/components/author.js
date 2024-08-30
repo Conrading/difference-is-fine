@@ -3,7 +3,8 @@ import './author.css'
 
 //https://pbs.twimg.com/media/FvjIH-eWYAIcGI4?format=jpg&name=small
 const Author = () => {
-    return (<div className='author-container'>
+    return (
+    <div className='author-container'>
         <div className='author-photo-container'>
             <img className='author-photo' src='https://conrading.github.io/wroclaw-project/accessFile/23TI43930.jpg' alt='zdjędzie'/>
         </div>
@@ -22,8 +23,7 @@ const Author = () => {
             </div>
         </div>
     </div>
-    
-        )
+    )
 }
 
 export default Author
