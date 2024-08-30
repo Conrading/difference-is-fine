@@ -137,6 +137,7 @@ and (min-device-width: 911px) {
     cursor: pointer;
   }
   .contentSwitcher:hover {
+    transition: 0.3s;
     border: 1px solid #504444;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }

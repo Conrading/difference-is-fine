@@ -38,7 +38,7 @@ const PDFViewer = () => {
         <div className="pdf-viewer-container">
           <iframe src={pdfUrl} className="pdf-iframe" title="PDF Viewer" width={pdfWidth} height={pdfHeight}/>
         </div>
-        <div className='jumpToPudu'>到 <a href='https://www.pubu.com.tw/ebook/451257'>Pubu</a> 閱讀全部 | click <a href='https://www.pubu.com.tw/ebook/451257'>here</a> to read full story</div>
+        <div className='jumpToPudu'>到 <a href='https://www.pubu.com.tw/ebook/451257'>Pubu</a> 閱讀全部 | click <a href='https://www.pubu.com.tw/ebook/451257'>Pubu</a> to read full story</div>
       </div>}
     </div>
   );
