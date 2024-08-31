@@ -50,7 +50,7 @@ and (max-device-width: 900px) {
     margin-top: 53px;
     margin-bottom: 53px;
     width: auto;
-    height: 299px;
+    height: 269px;
     animation: appear 5s;
   }
   .project-area {
