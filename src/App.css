@@ -20,7 +20,6 @@
 
 .main-container {
   width: 71%;
-  height: 100%;
   margin: 0 auto;
   transition: 1s;
 }
@@ -51,7 +50,7 @@ and (max-device-width: 900px) {
     margin-top: 53px;
     margin-bottom: 53px;
     width: auto;
-    height: auto;
+    height: 311px;
     animation: appear 5s;
   }
   .project-area {
