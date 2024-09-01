@@ -10,8 +10,9 @@ const Author = () => {
         </div>
         <div className='author-line-container'>
             <div className='makeRow'>                
-                <div className='social-media-link-button' onClick={() => window.open("https://www.instagram.com/differenceisfine/", "_blank")}>@differenceisfine</div>
+                <div className='social-media-link-button' onClick={() => window.open("https://www.instagram.com/differenceisfine/", "_blank")}>Instagram</div>
                 <div className='social-media-link-button' onClick={() => window.open("https://soundcloud.com/conrading", "_blank")}>SoundCloud</div> 
+                <div className='social-media-link-button' onClick={() => window.open("https://www.youtube.com/@differenceisfine", "_blank")}>Youtube</div> 
             </div>
             <div className='author-line'>
                 <div>"Difference is Fine" is my story, now it is only available in Chinese, though I am translating it, hope soon you can read it. </div>

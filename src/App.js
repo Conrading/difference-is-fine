@@ -17,16 +17,17 @@ class Główna extends Component {
         <div className='main-container'>
           {this.state.contentSwitch === "default" &&
           <div>
+            <div className='project-mainTitle'>- Difference is Fine 在所不息 -</div>
             <div className='project-phone-only-background'></div>
             <div className='project-area'>
               <div onClick={() => {this.setState({contentSwitch: "Philosophy"})}} className="project-eachcard project-eachcard-philosophy">
-                <div className='project-title'>the Philosophy</div>
+                <div className='project-items'>the Philosophy</div>
               </div>
               <div onClick={() => {this.setState({contentSwitch: "Story"})}} class="project-eachcard project-eachcard-readStory">
-                <div className='project-title'>試閱故事</div>
+                <div className='project-items'>試閱故事</div>
               </div>
               <div onClick={() => {this.setState({contentSwitch: "Author"})}} class="project-eachcard project-eachcard-aboutAuthor">
-                <div className='project-title'>about Author</div>
+                <div className='project-items'>about Author</div>
               </div>
             </div>
           </div>}
