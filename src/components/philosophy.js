@@ -21,9 +21,9 @@ const Philosophy = () => {
                 <div className="left-column">
                     <img 
                     className="thumbnail" 
-                    src='https://conrading.github.io/wroclaw-project/accessFile/05.jpg' 
+                    src='https://conrading.github.io/difference-is-fine/accessFile/05.jpg' 
                     alt="Image" 
-                    onClick={() => handleImageClick('https://conrading.github.io/wroclaw-project/accessFile/05.jpg')} 
+                    onClick={() => handleImageClick('https://conrading.github.io/difference-is-fine/accessFile/05.jpg')} 
                     />
                     {isImageEnlarged && (
                     <div className="overlay" onClick={handleCloseClick}>
@@ -61,9 +61,9 @@ const Philosophy = () => {
                 <div className='right-column'>
                     <img 
                     className="thumbnail" 
-                    src='https://conrading.github.io/wroclaw-project/accessFile/06.jpg' 
+                    src='https://conrading.github.io/difference-is-fine/accessFile/06.jpg' 
                     alt="Image" 
-                    onClick={() => handleImageClick('https://conrading.github.io/wroclaw-project/accessFile/06.jpg')} 
+                    onClick={() => handleImageClick('https://conrading.github.io/difference-is-fine/accessFile/06.jpg')} 
                     />
                     {isImageEnlarged && (
                     <div className="overlay" onClick={handleCloseClick}>

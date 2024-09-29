@@ -6,7 +6,7 @@ const Author = () => {
     return (
     <div className='author-container'>
         <div className='author-photo-container'>
-            <img className='author-photo' src='https://conrading.github.io/wroclaw-project/accessFile/23TI43930.jpg' alt='zdjędzie'/>
+            <img className='author-photo' src='https://conrading.github.io/difference-is-fine/accessFile/23TI43930.jpg' alt='zdjędzie'/>
         </div>
         <div className='author-line-container'>
             <div className='makeRow'>                

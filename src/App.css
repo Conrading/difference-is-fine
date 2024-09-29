@@ -31,6 +31,7 @@ and (max-device-width: 900px) {
     font-size: 1px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:white;
+    transition: 0.3s;
   }
   /* back button only show in each component */  
   .contentSwitcher {
@@ -48,7 +49,7 @@ and (max-device-width: 900px) {
   }
   /* main page button area*/  
   .project-phone-only-background {
-    background-image: url('https://conrading.github.io/wroclaw-project/accessFile/04.jpg');
+    background-image: url('https://conrading.github.io/difference-is-fine/accessFile/04.jpg');
     background-size: 99% 99%; /* change from "cover" */
     background-position: center; 
     background-repeat: no-repeat; 
@@ -143,6 +144,7 @@ and (min-device-width: 911px) {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 17px;
     padding: 17px;
+    transition: 0.3s;
   }
   /* back button only show in each component */  
   .contentSwitcher {
@@ -218,7 +220,7 @@ and (min-device-width: 911px) {
     }
   }
   .project-eachcard-philosophy:hover {
-    background-image: url("https://conrading.github.io/wroclaw-project/accessFile/01.jpg"); 
+    background-image: url("https://conrading.github.io/difference-is-fine/accessFile/01.jpg"); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -239,7 +241,7 @@ and (min-device-width: 911px) {
     }
   } 
   .project-eachcard-readStory:hover {
-    background-image: url('https://conrading.github.io/wroclaw-project/accessFile/02.jpg');
+    background-image: url('https://conrading.github.io/difference-is-fine/accessFile/02.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -266,7 +268,7 @@ and (min-device-width: 911px) {
     }
   }
   .project-eachcard-aboutAuthor:hover {
-    background-image: url('https://conrading.github.io/wroclaw-project/accessFile/03.jpg');
+    background-image: url('https://conrading.github.io/difference-is-fine/accessFile/03.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 

@@ -21,7 +21,7 @@ const StoryReader = () => {
     const [inputSize, setInputSize] = useState(511);
     const [showingSize, setShowingSize] = useState("Page Size: 100%")
 
-    const pdfUrl = "https://conrading.github.io/wroclaw-project/differenceIsFine.pdf";
+    const pdfUrl = "https://conrading.github.io/difference-is-fine/differenceIsFine.pdf";
 
     const onDocumentLoadSuccess = ({ numPages }) => {
       console.log("total number of page of pdf is: " + numPages)

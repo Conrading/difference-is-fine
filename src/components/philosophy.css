@@ -70,7 +70,7 @@ and (min-device-width: 911px) {
   /* background area begin */
   .background-upper {
     border-top-left-radius: 7px;
-    background-image: url('https://conrading.github.io/wroclaw-project/accessFile/Designer-1.jpg');  
+    background-image: url('https://conrading.github.io/difference-is-fine/accessFile/Designer-1.jpg');  
     background-position: center;  
     background-size: cover;    
     background-repeat: no-repeat; 
@@ -78,7 +78,7 @@ and (min-device-width: 911px) {
   }
   .background-bottom {
     border-bottom-right-radius: 7px;
-    background-image: url('https://conrading.github.io/wroclaw-project/accessFile/Designer-2.jpg');
+    background-image: url('https://conrading.github.io/difference-is-fine/accessFile/Designer-2.jpg');
     background-position: center;  
     background-size: cover;    
     background-repeat: no-repeat; 

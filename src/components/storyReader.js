@@ -8,7 +8,7 @@ const PDFViewer = () => {
 
   const pdfWidth = "100%"
   const pdfHeight = "100%"
-  const storySource = "https://conrading.github.io/wroclaw-project/在所不息試閱2024版.pdf";
+  const storySource = "https://conrading.github.io/difference-is-fine/在所不息試閱2024版.pdf";
   //const pdfUrl = `${storySource}#toolbar=0`;
   const pdfUrl = `${storySource}`;
   const isMobile = window.innerWidth <= 900;
