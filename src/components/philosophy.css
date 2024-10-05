@@ -40,8 +40,8 @@
 @media screen 
 and (max-device-width: 900px) {
   .image-box {
-    max-width: 41%;
-    max-height: 41%;
+    max-width: 79%;
+    max-height: 79%;
     object-fit: cover;
     border-radius: 7px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.8);
