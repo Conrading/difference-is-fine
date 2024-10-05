@@ -1,86 +1,49 @@
-import React, { useState }  from 'react';
-import './philosophy.css'
+import React, { useState } from 'react';
+import './philosophy.css';
 
 const Philosophy = () => {
-    const [isImageEnlarged, setIsImageEnlarged] = useState(false);
-    const [enlargedImageUrl, setEnlargedImageUrl] = useState(null);
-    
-    const handleImageClick = (imageUrl) => {
-        setIsImageEnlarged(true);
-        setEnlargedImageUrl(imageUrl);
+    const images = [
+        'https://conrading.github.io/difference-is-fine/accessFile/05.jpg',
+        'https://conrading.github.io/difference-is-fine/accessFile/06.jpg',
+        'https://conrading.github.io/difference-is-fine/accessFile/07.jpg'
+    ];
+
+    const videos = [
+        "https://www.youtube.com/embed/iYvSiBpKqrY",
+        "https://www.youtube.com/embed/bo6mf9JpUs0"
+    ];
+
+    const media = [...images, ...videos]; // Merged list of images and videos in sequence
+    const [currentItemIndex, setCurrentItemIndex] = useState(0);
+
+    const goToNext = () => {
+        // Cycle through the merged media array
+        const nextIndex = (currentItemIndex + 1) % media.length;
+        setCurrentItemIndex(nextIndex);
     };
-    
-    const handleCloseClick = () => {
-        setIsImageEnlarged(false);
-        setEnlargedImageUrl(null);
-    };
-      
+
     return (
-        <body>
-            <div className='main-frame background-upper'>
-                <div className="left-column">
-                    <img 
-                    className="thumbnail" 
-                    src='https://conrading.github.io/difference-is-fine/accessFile/05.jpg' 
-                    alt="Image" 
-                    onClick={() => handleImageClick('https://conrading.github.io/difference-is-fine/accessFile/05.jpg')} 
+        <div className="dynamic-philosophy-container">
+            <div className="centered-content" onClick={goToNext}>
+                {currentItemIndex < images.length ? (
+                    <img
+                        className="fade-in image-box"
+                        src={media[currentItemIndex]}
+                        alt="Philosophy"
                     />
-                    {isImageEnlarged && (
-                    <div className="overlay" onClick={handleCloseClick}>
-                        <div className="enlarged-image-container">
-                        <img 
-                            src={enlargedImageUrl} 
-                            alt="enlarged" 
-                            className="enlarged-image" 
-                        />
-                        </div>
-                    </div>
-                    )}
-                </div>
-                <div className='right-column'>
-                    <iframe className='video-centering'
-                        width="392" height="697" 
-                        src="https://www.youtube.com/embed/iYvSiBpKqrY" 
-                        title="how God might Engineer Humans | Difference is Fine" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                    </iframe>
-                </div>
+                ) : (
+                    <iframe
+                        className="fade-in video-box"
+                        src={media[currentItemIndex]}
+                        title="Philosophy Video"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                    ></iframe>
+                )}
             </div>
-            <div className='main-frame background-bottom'>
-                <div className="left-column">
-                    <iframe className='video-centering'
-                        src="https://www.youtube.com/embed/bo6mf9JpUs0" 
-                        title="Humans might be constructed based on quantum physics to function as highly efficient Machines." 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                    </iframe>
-                </div>
-                <div className='right-column'>
-                    <img 
-                    className="thumbnail" 
-                    src='https://conrading.github.io/difference-is-fine/accessFile/06.jpg' 
-                    alt="Image" 
-                    onClick={() => handleImageClick('https://conrading.github.io/difference-is-fine/accessFile/06.jpg')} 
-                    />
-                    {isImageEnlarged && (
-                    <div className="overlay" onClick={handleCloseClick}>
-                        <div className="enlarged-image-container">
-                        <img 
-                            src={enlargedImageUrl} 
-                            alt="enlarged" 
-                            className="enlarged-image" 
-                        />
-                        </div>
-                    </div>
-                    )}
-                </div>
-            </div>
-        </body>
-    )
-}
+        </div>
+    );
+};
 
-
-export default Philosophy
+export default Philosophy;

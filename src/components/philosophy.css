@@ -1,192 +1,91 @@
-
-@media screen 
-and (max-device-width: 900px) {
-  .main-frame {
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-  }  
-  .left-column, .right-column {
-    margin: 13px;
-  }  
-  /* image area begin */
-  .thumbnail {
-    width: 100%;
-    cursor: pointer;
-  }  
-  .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }  
-  .enlarged-image-container {
-    position: relative;
-    justify-content: center;
-    align-items: center;
-  }  
-  .enlarged-image {
-    max-width: 71%;
-    max-height: 71%;
-    transition: 0.7s;
-  }  
-  .enlarged-image-container:after {
-    content: '✖';
-    position: absolute;
-    top: -31px;
-    right: 19%;
-    font-size: 24px;
-    color: white;
-    cursor: pointer;
-  }
-  /* image area end */
-  /* video area begin */
-  .video-centering {
-    display: block;
-    margin: 0 auto;
-    width: 171px;
-    height: 291px;  
-  }
-  /* video area end */
+/* Philosophy container full-screen dynamic vibes */
+.dynamic-philosophy-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  cursor: pointer;
 }
 
+/* Fading effect for cool transitions */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: scale(0.9);
+  }
+  100% {
+      opacity: 1;
+      transform: scale(1);
+  }
+}
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Image styles: responsive, fullscreen */
 @media screen 
-and (min-device-width: 911px) {
-  .main-frame {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    min-height: auto;
-    padding: 31px; 
-    width: 71%;
-  }
-  /* background area begin */
-  .background-upper {
-    border-top-left-radius: 7px;
-    background-image: url('https://conrading.github.io/difference-is-fine/accessFile/Designer-1.jpg');  
-    background-position: center;  
-    background-size: cover;    
-    background-repeat: no-repeat; 
-    transition: 0.7s;
-  }
-  .background-bottom {
-    border-bottom-right-radius: 7px;
-    background-image: url('https://conrading.github.io/difference-is-fine/accessFile/Designer-2.jpg');
-    background-position: center;  
-    background-size: cover;    
-    background-repeat: no-repeat; 
-    transition: 0.7s;
-  }
-  /* background area end */
-  .left-column, .right-column {
-    margin: 0 auto;
-    flex: 1;
-    width: 50%;
-  }  
-  /* image area begin */
-  .thumbnail {
-    width: 100%;
-    cursor: pointer;
-  }  
-  .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }  
-  .enlarged-image-container {
-    position: relative;
-  }  
-  .enlarged-image {
-    max-width: 59%;
-    max-height: 59%;
-    transition: 0.7s;
-  }  
-  .enlarged-image-container:after {
-    content: '✖';
-    position: absolute;
-    top: -31px;
-    right: 37%;
-    font-size: 24px;
-    color: white;
-    cursor: pointer;
-  }
-  /* image area end */
-  /* video area begin */
-  .video-centering {
-    display: block;
-    margin: 0 auto;
-    width: 196px;
-    height: 348.5px;
+and (max-device-width: 900px) {
+  .image-box {
+    max-width: 41%;
+    max-height: 41%;
+    object-fit: cover;
     border-radius: 7px;
-    transition: 0.7s;
-  }
-  /* video area end */
-}
-
-
-@media screen 
-and (max-device-width: 900px) {
-  .opis {
-    margin: 3%;
-    color: black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 11px;
-    animation-duration: 1s;
-    animation-name: remarking;
-  }
-  @keyframes remarking {
-      0% {
-        color: rgb(245, 236, 236);
-      }
-      51% {
-        transition: .3s;
-        color: gold;
-      }
-      100% {
-        transition: 0.3s;
-        color: black
-      }
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.8);
+    transition: transform 0.4s;
   }
 }
 @media screen 
 and (min-device-width: 911px) {
-  .opis {
-    margin: 3%;
-    color: black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 17px;
-    animation-duration: 1s;
-    animation-name: remarking;
-  }
-  @keyframes remarking {
-      0% {
-        color: rgb(245, 236, 236);
-      }
-      31% {
-        transition: .3s;
-        color: gold;
-      }
-      71% {
-        transition: .3s;
-        color: rgb(117, 5, 5);
-        font-family: cursive;
-      }
-      100% {
-        transition: 0.3s;
-        color: blue;
-      }
+  .image-box {
+    max-width: 53%;
+    max-height: 53%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    transition: transform 0.4s;
   }
 }
+
+.image-box:hover {
+  transform: scale(1.02);
+}
+
+/* Video container styling */
+@media screen 
+and (max-device-width: 900px) {
+  .video-box {
+    width: 191px;
+    height: 291px;
+    border-radius: 7px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.8);
+  }
+}
+@media screen 
+and (min-device-width: 911px) {
+  .video-box {
+    width: 392px;
+    height: 697px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  }
+}
+
+.video-box:hover {
+  transform: scale(1.02);
+  transition: transform 0.4s;
+}
+
