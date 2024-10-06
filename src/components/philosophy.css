@@ -40,8 +40,8 @@
 @media screen 
 and (max-device-width: 900px) {
   .image-box {
-    max-width: 97%;
-    max-height: 97%;
+    max-width: 109%;
+    max-height: 109%;
     object-fit: cover;
     border-radius: 7px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.8);
@@ -69,7 +69,7 @@ and (min-device-width: 911px) {
 and (max-device-width: 900px) {
   .video-box {
     width: 191px;
-    height: 291px;
+    height: 301px;
     border-radius: 7px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.8);
   }
