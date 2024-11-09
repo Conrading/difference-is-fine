@@ -1,10 +1,17 @@
 
-import React, { useState } from 'react';
+import React, { useState,  useEffect } from 'react';
 import './storyReader.css';
 
 
 const PDFViewer = () => {
   const [preReadingToggle, setPreReadingToggle] = useState("close");
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 900);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 900);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   //PDFReading
   const pdfWidth = "100%"
@@ -14,7 +21,6 @@ const PDFViewer = () => {
   //const pdfUrl = `${storySource}#toolbar=0`;
   const storyMEnglishSource = "https://conrading.github.io/difference-is-fine/DifferenceIsFine_2024trail.pdf";
   const pdfUrlEnglish = `${storyMEnglishSource}`;
-  const isMobile = window.innerWidth <= 900;
 
   const switchMandarinPreReading = () => {
     if (preReadingToggle === "close") {setPreReadingToggle("Mandarin")} else {alert('System Error')}

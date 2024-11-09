@@ -5,7 +5,6 @@
   and (max-device-width: 900px) {
     .preReadingContainer {
       transition: 1.3s;
-      margin: 0 auto;
       width: 100%;
       padding: 7px;
       background-color: #f0f0f0;
@@ -13,6 +12,7 @@
     }
     .preReadingText {
       margin: 7px;
+      text-align: center;
       font-size: 11px;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
@@ -20,7 +20,7 @@
       display: flex;
       justify-content: center; 
       align-items: center; 
-      height: 51vh; 
+      height: 59vh; 
       background-color: #f0f0f0; 
       border-radius: 3px;
       padding: 3px;
@@ -34,6 +34,8 @@
       border: none; 
       border-radius: 3px;
       box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1); 
+      width: 100%;
+      height: 100%;
       max-width: 100%; 
       max-height: 100%; 
     }
