@@ -32,12 +32,13 @@ const PDFViewer = () => {
     <div>
       {preReadingToggle === "close" && 
       <div className='preReadingContainer'>
-        <div className='preReadingText'>English Translation progress: <b>24%</b> in 2024 November</div>
+        <div className='preReadingText'>English Translation progress: <b>24%</b> in Nov '24</div>
         {isMobile ? 
         (
           <div className='preReadingText'>
             <br />
-            <div>抱歉手機無法試閱 | Sorry Trail Version is not available on cell phone</div>
+            <div>抱歉手機無法試閱</div>
+            <div>Sorry Trail Version is not available on cell phone</div>
           </div>
         ): (
           <div>
