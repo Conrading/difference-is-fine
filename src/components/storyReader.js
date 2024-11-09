@@ -16,10 +16,10 @@ const PDFViewer = () => {
   //PDFReading
   const pdfWidth = "100%"
   const pdfHeight = "100%"
-  const storyMandarinSource = "https://conrading.github.io/difference-is-fine/在所不息試閱2024版.pdf#toolbar#zoom=23";
+  const storyMandarinSource = "https://conrading.github.io/difference-is-fine/在所不息試閱2024版.pdf&embedded=true";
   const pdfUrlMandarin = `${storyMandarinSource}`;
   //const pdfUrl = `${storySource}#toolbar=0`;
-  const storyMEnglishSource = "https://conrading.github.io/difference-is-fine/DifferenceIsFine_2024trail.pdf#toolbar#zoom=23";
+  const storyMEnglishSource = "https://conrading.github.io/difference-is-fine/DifferenceIsFine_2024trail.pdf&embedded=true";
   const pdfUrlEnglish = `${storyMEnglishSource}`;
 
   const switchMandarinPreReading = () => {
