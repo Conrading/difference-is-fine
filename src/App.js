@@ -24,7 +24,7 @@ class Główna extends Component {
                 <div className='project-items'>the Philosophy</div>
               </div>
               <div onClick={() => {this.setState({contentSwitch: "Story"})}} class="project-eachcard project-eachcard-readStory">
-                <div className='project-items'>試閱故事</div>
+                <div className='project-items'>Read Story</div>
               </div>
               <div onClick={() => {this.setState({contentSwitch: "Author"})}} class="project-eachcard project-eachcard-aboutAuthor">
                 <div className='project-items'>about Author</div>

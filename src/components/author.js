@@ -15,12 +15,12 @@ const Author = () => {
                 <div className='social-media-link-button' onClick={() => window.open("https://www.youtube.com/@differenceisfine", "_blank")}>Youtube</div> 
             </div>
             <div className='author-line'>
-                <div>"Difference is Fine" is my story, now it is only available in Chinese, though I am translating it, hope soon you can read it. </div>
+                <div>Engineer who studied law, living in Wrocław, dreamed of being an artist, dreams of dying as an artist. </div>
                 <br/>
-                <div>既然你懂中文，也許試閱「在所不息」</div>
+                <div>若不嫌棄，也許試閱「在所不息」</div>
             </div>
             <div className='author-line'>
-                <div>-- 2024 二零二四年</div>
+                <div>-- 2024 November Wrocław</div>
             </div>
         </div>
     </div>

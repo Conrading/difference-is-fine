@@ -26,10 +26,12 @@ const PDFViewer = () => {
     <div>
       {preReadingToggle === "close" && 
       <div className='preReadingContainer'>
-        <div className='preReadingText'>English Translation is still in progress: <b>24%</b> in 2024 November</div>
+        <div className='preReadingText'>English Translation progress: <b>24%</b> in 2024 November</div>
         {isMobile ? 
         (
           <div className='preReadingText'>
+            <div onClick={switchMandarinPreReading} className='preReadingToggle'>試閱100頁</div>
+            <div onClick={switchEnglishPreReading} className='preReadingToggle'>English Trial Version</div>
             <br />
             <div>抱歉無法在手機試閱</div>
           </div>
@@ -53,7 +55,6 @@ const PDFViewer = () => {
         <div className="pdf-viewer-container">
           <iframe src={pdfUrlEnglish} className="pdf-iframe" title="PDF Viewer" width={pdfWidth} height={pdfHeight}/>
         </div>
-        <div className='jumpToPudu'>到 <a href='https://www.pubu.com.tw/ebook/451257'>Pubu</a> 閱讀全部 | click <a href='https://www.pubu.com.tw/ebook/451257'>Pubu</a> to read full story</div>
       </div>}
     </div>
   );
