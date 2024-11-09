@@ -16,10 +16,10 @@ const PDFViewer = () => {
   //PDFReading
   const pdfWidth = "100%"
   const pdfHeight = "100%"
-  const storyMandarinSource = "https://conrading.github.io/difference-is-fine/在所不息試閱2024版.pdf#toolbar=1&zoom=17";
+  const storyMandarinSource = "https://conrading.github.io/difference-is-fine/在所不息試閱2024版.pdf";
   const pdfUrlMandarin = `${storyMandarinSource}`;
   //const pdfUrl = `${storySource}#toolbar=0`;
-  const storyMEnglishSource = "https://conrading.github.io/difference-is-fine/DifferenceIsFine_2024trail.pdf#toolbar=1&zoom=17";
+  const storyMEnglishSource = "https://conrading.github.io/difference-is-fine/DifferenceIsFine_2024trail.pdf";
   const pdfUrlEnglish = `${storyMEnglishSource}`;
 
   const switchMandarinPreReading = () => {
@@ -37,8 +37,7 @@ const PDFViewer = () => {
         (
           <div className='preReadingText'>
             <br />
-            <div onClick={switchMandarinPreReading} className='preReadingToggle'>試閱100頁</div>
-            <div onClick={switchEnglishPreReading} className='preReadingToggle'>English Trial Version</div>
+            <div>抱歉手機無法試閱 | Sorry Trail Version is not available on cell phone</div>
           </div>
         ): (
           <div>
