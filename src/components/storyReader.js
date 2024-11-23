@@ -32,7 +32,7 @@ const PDFViewer = () => {
     <div>
       {preReadingToggle === "close" && 
       <div className='preReadingContainer'>
-        <div className='preReadingText'>English Translation progress: <b>24%</b> in Nov '24</div>
+        <div className='preReadingText'>English Translation progress: <b>37%</b> in Nov '24</div>
         {isMobile ? 
         (
           <div className='preReadingText'>
