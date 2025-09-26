@@ -39,15 +39,15 @@ const AuthorPage = () => {
       <section className="about-container">
         <div className="about">
           <h2>About the Story</h2>
-          <div>The story reveals how fear on the streets collides with depression at home — and a boy named Yoshiki must find a way to survive both.</div>
-          <div>Yoshiki only wanted to protect his friend Zenerate from Meanhunt, so he told the police about the place and time. The police came as informed, 
+          <p>The story reveals how fear on the streets collides with depression at home — and a boy named Yoshiki must find a way to survive both.</p>
+          <p>Yoshiki only wanted to protect his friend Zenerate from Meanhunt, so he told the police about the place and time. The police came as informed, 
             but they didn’t find Zenerate or Meanhunt. Instead, they uncovered something much bigger — a conflict between two powerful gangs and a trail of illegal drugs.
             Now the whole street is hunting for informer - Yoshiki.
             He is caught between a merciless gang world and a collapsing family, where his older brother has just taken his own life.
 
             It is no surprise that Yoshiki will find a way to survive.
             The real surprise is how.
-          </div>
+          </p>
           <h2>About the Author</h2>
           <p>
             Engineer from Taiwan, currently live in Poland. 
