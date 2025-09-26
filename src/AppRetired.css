@@ -1,0 +1,317 @@
+
+
+.makeRow {
+  display: flex;
+}
+.centeringText {
+  text-align: center;
+}
+.center-object {
+  margin: 0 auto;
+}
+.text-pointer {
+  cursor: pointer;
+}
+.text-pointer:hover {
+  color: rgba(77, 17, 17);
+}
+
+
+
+.main-container {
+  width: 71%;
+  margin: 0 auto;
+  transition: 1s;
+}
+@media screen 
+and (max-device-width: 900px) {
+  .project-mainTitle {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    transition: 0.3s;
+  }
+  /* back button only show in each component */  
+  .contentSwitcher {
+    padding: 5px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    width: 31px;
+    cursor: pointer;
+  }
+  .backGap {
+    margin: 29px;
+  }
+  /* main page button area*/  
+  .project-phone-only-background {
+    background-image: url('https://conrading.github.io/difference-is-fine/accessFile/04.jpg');
+    background-size: 99% 99%; /* change from "cover" */
+    background-position: center; 
+    background-repeat: no-repeat; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 43px;
+    margin-bottom: 53px;
+    width: auto;
+    height: 269px;
+    animation: appear 5s;
+  }
+  .project-area {
+    margin: 11%;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-eachcard {
+    transition: 0.3s;
+    margin: 11%;
+    padding: 3%;
+    cursor: pointer;
+  }
+  /* main page button area*/  
+  /* left button area*/   
+  .project-eachcard-philosophy {
+    animation: moveUp 5s;
+  }
+  @keyframes moveUp {
+    0% {
+      transition: 0.5s;
+      transform: translate(-131px, 0);
+      opacity: 0.25;
+    }
+    50% {
+      transform: translate(-31px, 0) rotate(10deg);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translate(0, 0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  /* left button area*/  
+  /* middle button area*/  
+  .project-eachcard-readStory {
+    animation: appear 5s;
+  }
+  @keyframes appear {
+    0% {
+      box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  } 
+  /* middle button area*/  
+  /* right button area*/  
+  .project-eachcard-aboutAuthor {
+    animation: moveDown 5s;
+  }
+  @keyframes moveDown {
+    0% {
+      transition: 0.5s;
+      transform: translate(131px, 0);
+      opacity: 0.25;
+    }
+    50% {
+      transform: translate(31px, 0) rotate(10deg);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translate(0, 0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  /* right button area*/ 
+  .project-items {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+  }
+}
+@media screen 
+and (min-device-width: 911px) {
+  .project-mainTitle {
+    text-align: center;
+    margin: 0 auto;
+    width: 71%;
+    border-bottom: solid 1px #dad3d3;
+    font-size: 37px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 17px;
+    padding: 17px;
+    transition: 0.3s;
+  }
+  /* back button only show in each component */  
+  .contentSwitcher {
+    padding: 5px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    width: 51px;
+    cursor: pointer;
+  }
+  .contentSwitcher:hover {
+    transition: 0.3s;
+    border: 1px solid #504444;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .backGap {
+    margin: 29px;
+  }
+  /* main page button area*/    
+  .project-area {
+    margin: 0 auto;
+    padding: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh; 
+    width: 71%;
+  }
+  .project-eachcard {
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 71%;
+    margin: 0 auto;
+    padding: 1%;
+    cursor: pointer;
+  }
+  .project-eachcard:hover {
+    min-height: 31vh;
+    color:transparent;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    animation: expanding 1.7s
+  }
+  @keyframes expanding {
+    from {
+      min-height: 0vh;
+    }
+    to {
+      min-height: 31vh;
+      color:transparent;
+    }
+  }
+  /* left button area*/   
+  .project-eachcard-philosophy {
+    animation: moveDown 5s;
+  }
+  @keyframes moveDown {
+    0% {
+      border: 2px solid rgb(81, 81, 124);
+      transform: translate(0, 0) rotate(0deg);
+      opacity: 1;
+    }
+    50% {
+      border: 1px solid rgb(154, 154, 172);
+      transform: translate(31px, 31px) rotate(-180deg);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translate(0, 0) rotate(360deg);
+      opacity: 1;
+    }
+  }
+  .project-eachcard-philosophy:hover {
+    background-image: url("https://conrading.github.io/difference-is-fine/accessFile/01.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  /* left button area*/  
+  /* middle button area*/  
+  .project-eachcard-readStory {
+    animation: appear 5s;
+  }
+  @keyframes appear {
+    0% {
+      border: 2px solid rgb(81, 81, 124);
+      box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  } 
+  .project-eachcard-readStory:hover {
+    background-image: url('https://conrading.github.io/difference-is-fine/accessFile/02.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  /* middle button area*/  
+  /* right button area*/  
+  .project-eachcard-aboutAuthor {
+    animation: moveUp 5s;
+  }
+  @keyframes moveUp {
+    0% {
+      border: 2px solid rgb(81, 81, 124);
+      transform: translate(0, 0) rotate(0deg);
+      opacity: 1;
+    }
+    50% {
+      border: 1px solid rgb(154, 154, 172);
+      transform: translate(-31px, -31px) rotate(180deg);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translate(0, 0) rotate(360deg);
+      opacity: 1;
+    }
+  }
+  .project-eachcard-aboutAuthor:hover {
+    background-image: url('https://conrading.github.io/difference-is-fine/accessFile/03.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  /* right button area*/  
+  .project-items {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 91%;
+    padding: 1%;
+    cursor: pointer;
+  }
+}
+/* posters area end */
+
+
+
+
+@media screen 
+and (max-device-width: 900px) {
+  .bottom-note {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 11px;
+    padding: 3%;
+  }
+}
+@media screen 
+and (min-device-width: 911px) {
+  .bottom-note {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto;
+    padding: 3%;
+    height: 37px;
+    width: 71%;
+  }
+}
+
+
+
