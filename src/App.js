@@ -23,7 +23,7 @@ const AuthorPage = () => {
           <p>The story reveals how fear on the streets collides with depression at home.</p>
           <div className="buttons">
             <a className="btn" href={book.amazonUrl} target="_blank" rel="noopener noreferrer">Kindle eBook</a>
-            <a className="btn-outline" href="https://www.pubu.com.tw/ebook/451257">到Pubu閱讀全部</a>
+            <a className="btn-outline" href="https://www.pubu.com.tw/ebook/451257" target="_blank" rel="noopener noreferrer">到Pubu閱讀全部</a>
           </div>
         </div>
         <div className="hero-image">
