@@ -38,49 +38,17 @@ const AuthorPage = () => {
 
       <section className="retailers-container">
         <div className="retailers">
-          <a href={book.amazonUrl} target="_blank" rel="noopener noreferrer">
-            Amazon
-          </a>
+          <a href={book.amazonUrl} target="_blank" rel="noopener noreferrer">US</a>
           &nbsp;|&nbsp;
-          <a
-            href="https://www.amazon.co.uk/dp/B0FQXW1R68"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Amazon UK
-          </a>
+          <a href="https://www.amazon.co.uk/dp/B0FQXW1R68" target="_blank" rel="noopener noreferrer">UK</a>
           &nbsp;|&nbsp;
-          <a
-            href="https://www.amazon.ca/dp/B0FQXW1R68"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Amazon CA
-          </a>
+          <a href="https://www.amazon.ca/dp/B0FQXW1R68" target="_blank" rel="noopener noreferrer">CA</a>
           &nbsp;|&nbsp;
-          <a
-            href="https://www.amazon.de/dp/B0FQXW1R68"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Amazon DE
-          </a>
+          <a href="https://www.amazon.de/dp/B0FQXW1R68" target="_blank" rel="noopener noreferrer">DE</a>
           &nbsp;|&nbsp;
-          <a
-            href="https://www.amazon.fr/dp/B0FQXW1R68"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Amazon FR
-          </a>
+          <a href="https://www.amazon.fr/dp/B0FQXW1R68" target="_blank" rel="noopener noreferrer">FR</a>
           &nbsp;|&nbsp;
-          <a
-            href="https://www.amazon.es/dp/B0FQXW1R68"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Amazon ES
-          </a>
+          <a href="https://www.amazon.es/dp/B0FQXW1R68" target="_blank" rel="noopener noreferrer">ES</a>
         </div>
       </section>
 
