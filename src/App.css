@@ -201,7 +201,7 @@ and (min-device-width: 911px) {
     text-decoration: none;
     border: 1px solid #bdbdbd;
     border-radius: 3px;
-    padding: 2px;
+    padding: 5px;
   }
   .btn-outline {
     font-family: Arial, Helvetica, sans-serif;
@@ -209,7 +209,7 @@ and (min-device-width: 911px) {
     margin-left: 0; /* reset margin for stacked buttons */
     border: 1px solid #bdbdbd;
     border-radius: 3px;
-    padding: 2px;
+    padding: 5px;
   }
 
   /* About section */
