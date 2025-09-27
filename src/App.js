@@ -36,32 +36,7 @@ const AuthorPage = () => {
         </div>
       </section>
 
-      <section className="about-container">
-        <div className="about">
-          <h2>About the Story</h2>
-          <p>The story reveals how fear on the streets collides with depression at home — and a boy named Yoshiki must find a way to survive both.</p>
-          <p>Yoshiki only wanted to protect his friend Zenerate from Meanhunt, so he told the police about the place and time. The police came as informed, 
-            but they didn’t find Zenerate or Meanhunt. Instead, they uncovered something much bigger — a conflict between two powerful gangs and a trail of illegal drugs.
-            Now the whole street is hunting for informer - Yoshiki.
-            He is caught between a merciless gang world and a collapsing family, where his older brother has just taken his own life.
-
-            It is no surprise that Yoshiki will find a way to survive.
-            The real surprise is how.
-          </p>
-          <h2>About the Author</h2>
-          <p>
-            Engineer from Taiwan, currently live in Poland. 
-            Music fan such as Oasis and Björk. SoundCloud account is Conrading. 
-            Movies fan for examples Eastern Promises and Donnie Brasco. 
-            Following authors like Yukio Mishima and Ryunosuke Akutagawa.
-          </p>
-        </div>
-      </section>
-
-      <footer className="footer">
-        <p>
-          Copyright 2025 &mdash;  <a>Conrading</a>
-        </p>
+      <section className="footer">
         <div className="retailers">
           <span>Choose Your Retailer: </span>
           <a href={book.amazonUrl} target="_blank" rel="noopener noreferrer">
@@ -83,7 +58,59 @@ const AuthorPage = () => {
           >
             Amazon CA
           </a>
+          &nbsp;|&nbsp;
+          <a
+            href="https://www.amazon.de/dp/B0FQXW1R68"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Amazon DE
+          </a>
+          &nbsp;|&nbsp;
+          <a
+            href="https://www.amazon.fr/dp/B0FQXW1R68"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Amazon FR
+          </a>
+          &nbsp;|&nbsp;
+          <a
+            href="https://www.amazon.es/dp/B0FQXW1R68"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Amazon ES
+          </a>
         </div>
+      </section>
+
+      <section className="about-container">
+        <div className="about">
+          <h2>About the Story</h2>
+          <p>The story reveals how fear on the streets collides with depression at home — and a boy named Yoshiki must find a way to survive both.</p>
+          <p>Yoshiki only wanted to protect his friend Zenerate from Meanhunt, so he told the police about the place and time. The police came as informed, 
+            but they didn’t find Zenerate or Meanhunt. Instead, they uncovered something much bigger — a conflict between two powerful gangs and a trail of illegal drugs.
+            Now the whole street is hunting for informer - Yoshiki.
+            He is caught between a merciless gang world and a collapsing family, where his older brother has just taken his own life.
+
+            It is no surprise that Yoshiki will find a way to survive.
+            The real surprise is how.
+          </p>
+          <h2>About the Author</h2>
+          <p>
+            Engineer from Taiwan, currently live in Poland. 
+            Music fan such as Oasis and Björk. 
+            Movies fan for examples Eastern Promises and Donnie Brasco. 
+            Following authors like Yukio Mishima and Ryunosuke Akutagawa.
+          </p>
+        </div>
+      </section>
+
+      <footer className="footer">
+        <p>
+          Copyright 2025 &mdash;  <a>Conrading</a>
+        </p>
       </footer>
     </div>
   );
