@@ -162,7 +162,7 @@ and (min-device-width: 911px) {
   .nav a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    border: 1px solid #333;
+    border: 1px solid #bdbdbd;
     border-radius: 3px;
     display: block;
     text-align: center;
@@ -199,17 +199,17 @@ and (min-device-width: 911px) {
   .btn {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    border: 1px solid #333;
+    border: 1px solid #bdbdbd;
     border-radius: 3px;
-    margin: 2px;
+    padding: 2px;
   }
   .btn-outline {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     margin-left: 0; /* reset margin for stacked buttons */
-    border: 1px solid #333;
+    border: 1px solid #bdbdbd;
     border-radius: 3px;
-    margin: 2px;
+    padding: 2px;
   }
 
   /* About section */
