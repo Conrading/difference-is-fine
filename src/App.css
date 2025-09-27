@@ -151,12 +151,14 @@ and (min-device-width: 911px) {
 @media (max-width: 911px) {
   /* Navigation */
   .nav {
-    flex-direction: flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
     gap: 0.75em;
   }
 
   .nav a {
-  font-family: cursive;
+    font-family:Arial, Helvetica, sans-serif;
     display: block;
     text-align: center;
     padding: 0.75em;
