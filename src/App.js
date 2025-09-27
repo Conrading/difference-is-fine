@@ -38,7 +38,6 @@ const AuthorPage = () => {
 
       <section className="retailers-container">
         <div className="retailers">
-          <span>Choose Your Retailer: </span>
           <a href={book.amazonUrl} target="_blank" rel="noopener noreferrer">
             Amazon
           </a>
