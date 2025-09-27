@@ -8,7 +8,7 @@
 
 .header {
   padding: 1em;
-  background:  #fde6a5; 
+  background: #ffd374;
   border-bottom: 1px solid #ddd;
 }
 
@@ -122,18 +122,25 @@ and (min-device-width: 911px) {
     justify-content: space-between;
   }
 
-  .footer {
+  .retailers-container {
     padding: 1em;
     background:  #ffd374;
     border-top: 1px solid #ddd;
     text-align: center;
     margin-top: 2em;
   }
-
-  .footer .retailers a {
+  .retailers-container .retailers a {
     color: #0077cc;
     text-decoration: none;
   }
+
+  .footer {
+    padding: 1em;
+    background:  #ffd374;
+    text-align: center;
+    margin-top: 1em;
+  }
+
 
 }
 
@@ -189,16 +196,24 @@ and (min-device-width: 911px) {
     padding: 1.5em;
   }
 
-  .footer {
+  .retailers-container {
     padding: 1em;
     background:  #ffd374;
     border-top: 1px solid #ddd;
     text-align: center;
     margin-top: 2em;
+    font-size: 11px;
   }
-
-  .footer .retailers a {
+  .retailers-container .retailers a {
     color: #0077cc;
     text-decoration: none;
   }
+
+  .footer {
+    padding: 1em;
+    background:  #ffd374;
+    text-align: center;
+    margin-top: 1em;
+  }
+
 }
