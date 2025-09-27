@@ -162,8 +162,8 @@ and (min-device-width: 911px) {
   .nav a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color: #a89211;
-    border-bottom: 1px solid #ddd;
+    color: #222;
+    background-color: #fff;
     display: block;
     text-align: center;
     padding: 0.75em;
@@ -199,13 +199,15 @@ and (min-device-width: 911px) {
   .btn {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    border-bottom: 1px solid #ddd;
+    color: #222;
+    background-color: #fff;
   }
   .btn-outline {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     margin-left: 0; /* reset margin for stacked buttons */
-    border-bottom: 1px solid #ddd;
+    color: #222;
+    background-color: #fff;
   }
 
   /* About section */
