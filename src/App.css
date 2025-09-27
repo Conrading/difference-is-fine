@@ -162,9 +162,9 @@ and (min-device-width: 911px) {
   .nav a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color: #333;
+    color: #a89211;
+    border-bottom: 1px solid #ddd;
     display: block;
-    background: rgb(252, 218, 108)74;
     text-align: center;
     padding: 0.75em;
   }
@@ -193,16 +193,19 @@ and (min-device-width: 911px) {
     justify-content: center;
     align-items: center;
     gap: 1em;
+    color: #a89211;
   }
 
   .btn {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    border-bottom: 1px solid #ddd;
   }
   .btn-outline {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     margin-left: 0; /* reset margin for stacked buttons */
+    border-bottom: 1px solid #ddd;
   }
 
   /* About section */
