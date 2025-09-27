@@ -133,6 +133,9 @@ and (min-device-width: 911px) {
     color: #0077cc;
     text-decoration: none;
   }
+  .retailers-container .retailers a::before {
+    content: "Amazon ";
+  }
 
   .footer {
     padding: 1em;
