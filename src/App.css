@@ -164,6 +164,7 @@ and (min-device-width: 911px) {
     text-decoration: none;
     color: #333;
     display: block;
+    background: rgb(252, 218, 108)74;
     text-align: center;
     padding: 0.75em;
   }
@@ -188,12 +189,19 @@ and (min-device-width: 911px) {
   /* Buttons */
   .buttons {
     display: flex;
-    flex-direction: column;
-    gap: 1em;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    gap: 1em;
   }
 
+  .btn {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
   .btn-outline {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
     margin-left: 0; /* reset margin for stacked buttons */
   }
 
