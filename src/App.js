@@ -20,7 +20,7 @@ const AuthorPage = () => {
         <div className="hero-content">
           <h1>{book.title}</h1>
           <h3>The Psychology of Survival Machines Could Never Understand</h3>
-          <p>a fiction story from Taipei.</p>
+          <p>- a fiction story from Taipei -</p>
           <div className="buttons">
             <a className="btn" href={book.amazonUrl} target="_blank" rel="noopener noreferrer">Kindle eBook</a>
             <a className="btn-outline" href="https://www.pubu.com.tw/ebook/451257" target="_blank" rel="noopener noreferrer">到Pubu閱讀全部</a>
