@@ -13,6 +13,7 @@ const AuthorPage = () => {
         <nav className="nav">
           <a href="https://soundcloud.com/conrading" target="_blank" rel="noopener noreferrer">SoundCloud</a>
           <a href="https://www.youtube.com/@differenceisfine/videos" target="_blank" rel="noopener noreferrer">YouTube</a>
+          <a href="https://www.pinterest.com/?tabId=671247588151497788" target="_blank" rel="noopener noreferrer">Pinterest</a>
         </nav>
       </header>
 
@@ -28,7 +29,7 @@ const AuthorPage = () => {
         </div>
         <div className="hero-image">
           <a href={book.amazonUrl} target="_blank" rel="noopener noreferrer">
-            <img src="https://i.pinimg.com/736x/c8/62/8e/c8628e7e7c19a7bc54164f999df18ed6.jpg" alt={book.title} 
+            <img src="https://m.media-amazon.com/images/I/71iGrdv7FeL._SL1500_.jpg" alt={book.title} 
               href={book.amazonUrl}
               target="_blank"
               rel="noopener noreferrer"/>
@@ -58,16 +59,18 @@ const AuthorPage = () => {
 
       <section className="about-container">
         <div className="about">
-          <h2>About the Story</h2>
-          <p>The story reveals how fear on the streets collides with depression at home — and a boy named Yoshiki must find a way to survive both.</p>
-          <p>Yoshiki only wanted to protect his friend Zenerate from Meanhunt, so he told the police about the place and time. The police came as informed, 
-            but they didn’t find Zenerate or Meanhunt. Instead, they uncovered something much bigger — a conflict between two powerful gangs and a trail of illegal drugs.
-            Now the whole street is hunting for informer - Yoshiki.
-            He is caught between a merciless gang world and a collapsing family, where his older brother has just taken his own life.
-
-            It is no surprise that Yoshiki will find a way to survive.
-            The real surprise is how.
-          </p>
+          <h2>About the Story</h2>          
+            <div>The gangs are hunting Yoshiki, and his family is falling apart.</div><br />
+            <div>When Yoshiki gives the police information to protect his friend, he accidentally exposes a criminal operation far bigger than he imagined. 
+              Now the streets are searching for the informant, and every wrong step could be his last.
+            </div>
+            <div>At home, things aren't any safer. His brother is gone, his family is drowning in financial hardship, and the future feels increasingly out of reach.</div>
+            <div>As violence closes in around him, Yoshiki finds himself trapped between fear on the streets and despair at home. 
+              Haunted by visions of suicide and voices that insist life has no value, he begins questioning whether someone like him has any reason to keep going.
+            </div><br />
+            <div>A machine might have given up.</div>
+            <div>Yoshiki doesn't.</div><br />
+            <div>Difference is Fine is a coming-of-age novel about friendship, identity, self-worth, and finding meaning in a world obsessed with winners.</div>
           <h2>About the Author</h2>
           <p>
             Engineer from Taiwan, currently live in Poland. 
